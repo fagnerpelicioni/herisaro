@@ -1,0 +1,3228 @@
+# Translation of WordPress - 4.7.x - Administration in Rohingya
+# This file is distributed under the same license as the WordPress - 4.7.x - Administration package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-03-16 13:03:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: rhg_MM\n"
+"Project-Id-Version: WordPress - 4.7.x - Administration\n"
+
+#. translators: default start of the week. 0 = Sunday, 1 = Monday
+#: wp-admin/includes/schema.php:402
+msgctxt "start of week"
+msgid "1"
+msgstr "1"
+
+#. translators: default GMT offset or timezone string. Must be either a valid
+#. offset (-12 to 14) 	   or a valid timezone string (America/New_York). See
+#. https://secure.php.net/manual/en/timezones.php 	   for all timezone strings
+#. supported by PHP.
+#: wp-admin/includes/schema.php:387
+msgctxt "default GMT offset or timezone string"
+msgid "0"
+msgstr "0"
+
+#: wp-admin/user-new.php:467
+msgid "Send User Notification"
+msgstr "Estemal goróya'r etalá defeçó"
+
+#: wp-admin/user-new.php:470
+msgid "Send the new user an email about their account."
+msgstr "Noya estemal goróya ré ítarar hísaf or baabote ekkán b-ciñçí defeçó."
+
+#. translators: %s: Gravatar URL
+#: wp-admin/user-edit.php:500
+msgid "You can change your profile picture on <a href=\"%s\">Gravatar</a>."
+msgstr "Tuñí tuánr profail fothú <a href=\"%s\">Gravatar</a> ot bodoli faríba."
+
+#: wp-admin/user-edit.php:501
+msgid "https://en.gravatar.com/"
+msgstr "https://en.gravatar.com/"
+
+#: wp-admin/user-edit.php:494
+msgid "Profile Picture"
+msgstr "Profail Fothú"
+
+#: wp-admin/theme-install.php:158
+msgctxt "themes"
+msgid "Favorites"
+msgstr "Fosón ókkol"
+
+#: wp-admin/users.php:75
+msgid "Users list"
+msgstr "Estemalgoróya ókkol or liís"
+
+#: wp-admin/users.php:74
+msgid "Users list navigation"
+msgstr "Estemalgoróya ókkol or liís or duadui"
+
+#: wp-admin/users.php:134
+msgid "One of the selected users is not a member of this site."
+msgstr "Basíloiyá estemalgoróya ókkol ot uggwá sáith yián or membór nói."
+
+#: wp-admin/users.php:73
+msgid "Filter users list"
+msgstr "Estemalgoróya ókkol or liís salo"
+
+#: wp-admin/upload.php:217
+msgid "Media items list"
+msgstr "Midhia jiníc ókkol or liís"
+
+#: wp-admin/upload.php:216
+msgid "Media items list navigation"
+msgstr "Midhia jiníc ókkol or liís or duadui"
+
+#: wp-admin/upload.php:215
+msgid "Filter media items list"
+msgstr "Midhia jiníc ókkol or liís salo"
+
+#. translators: %s: file extension
+#: wp-admin/theme-editor.php:226
+msgid "%s files"
+msgstr "%s fail ókkol"
+
+#: wp-admin/theme-install.php:147
+msgid "Filter themes list"
+msgstr "Tehm or liís salo"
+
+#: wp-admin/theme-install.php:217
+msgid "Themes list"
+msgstr "Tehm ókkol or liís"
+
+#: wp-admin/themes.php:355
+msgid "Install Parent Theme"
+msgstr "Uoror Tehm Fíthgoró"
+
+#: wp-admin/options-permalink.php:254
+msgid "<a href=\"https://codex.wordpress.org/Nginx\">Documentation on Nginx configuration</a>."
+msgstr "<a href=\"https://codex.wordpress.org/Nginx\">Nginx Tortib or uore Habosfonna</a>."
+
+#: wp-admin/users.php:369
+msgid "You have specified this user for removal:"
+msgstr "Tuñí estemalgoróya ibá ré larifélai bélla waazé goijjó:"
+
+#. translators: 1: User's display name.
+#: wp-admin/user-edit.php:606
+msgid "Log %s out of all locations."
+msgstr "Loóg %s beggún zaga ókkol óttu baáre."
+
+#: wp-admin/user-edit.php:537
+msgid "Account Management"
+msgstr "Hísaf or Entezam"
+
+#: wp-admin/user-edit.php:543
+msgid "Generate Password"
+msgstr "Húfiawaádh Toiyargoró"
+
+#: wp-admin/user-edit.php:552 wp-admin/user-new.php:444
+msgid "Cancel password change"
+msgstr "Húfiawaádh bodola kensél goró"
+
+#: wp-admin/user-edit.php:580 wp-admin/user-edit.php:590
+#: wp-admin/user-edit.php:600
+msgid "Sessions"
+msgstr "Secén Ókkol"
+
+#: wp-admin/user-edit.php:582 wp-admin/user-edit.php:592
+msgid "Log Out Everywhere Else"
+msgstr "Beggúla Áttu Baáre Neeiló"
+
+#: wp-admin/includes/class-wp-list-table.php:660
+#: wp-admin/includes/class-wp-list-table.php:672
+#: wp-admin/includes/class-wp-list-table.php:685
+msgid "No comments"
+msgstr "Hóno rai óll nái"
+
+#: wp-admin/includes/class-wp-list-table.php:653
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s Rai ókkol"
+
+#: wp-admin/includes/class-wp-press-this.php:1524
+msgid "More actions"
+msgstr "Aró Ékcen ókkol"
+
+#: wp-admin/includes/dashboard.php:1501
+msgid "https://codex.wordpress.org/First_Steps_With_WordPress"
+msgstr "https://codex.wordpress.org/First_Steps_With_WordPress"
+
+#: wp-admin/user-edit.php:261
+msgid "<a href=\"https://codex.wordpress.org/Keyboard_Shortcuts\" target=\"_blank\">More information</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Keyboard_Shortcuts\" target=\"_blank\">Aró maalumat ókkol</a>"
+
+#: wp-admin/options-general.php:298
+msgid "<a href=\"https://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date and time formatting</a>."
+msgstr "<a href=\"https://codex.wordpress.org/Formatting_Date_and_Time\">Tarík arde Thaim or cokól diya'r uore Habosfonna</a>."
+
+#: wp-admin/users.php:442
+msgid "%s user deleted."
+msgid_plural "%s users deleted."
+msgstr[0] "%s estemalgoróya ókkol haçigiyói."
+
+#: wp-admin/users.php:242
+msgid "You have specified these users for deletion:"
+msgstr "Tuñí estemalgoróya iín oré haçifélai bélla waazé goijjó:"
+
+#: wp-admin/users.php:269
+msgid "What should be done with content owned by these users?"
+msgstr "Estemalgoróya ókkol iín or hazorjiníc or fúañti ki goróon sa."
+
+#: wp-admin/tools.php:46
+msgid "Install Press This"
+msgstr "Ibá Sibo Fíthgoró"
+
+#: wp-admin/tools.php:47
+msgid "Bookmarklet"
+msgstr "Kitabórhót"
+
+#: wp-admin/update-core.php:421
+msgid "New translations are available."
+msgstr "Noya torjuma ókkol moujut asé."
+
+#: wp-admin/tools.php:67
+msgid "Direct link (best for mobile)"
+msgstr "Dhaárik rabeta (Mubáil ollá sóbse gom)"
+
+#: wp-admin/user-edit.php:584
+msgid "You are only logged in at this location."
+msgstr "Tuñí siríf zaga yián ot bútore góilla asó."
+
+#: wp-admin/user-edit.php:602
+msgid "Log Out Everywhere"
+msgstr "Beggúla baáre neeiló"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:95
+msgctxt "Plugin Installer"
+msgid "Recommended"
+msgstr "Cúaric goijjá"
+
+#. translators: New site notification email. 1: New site URL, 2: User login, 3:
+#. User password or password reset link, 4: Login URL
+#: wp-admin/includes/upgrade.php:379
+msgid ""
+"Your new WordPress site has been successfully set up at:\n"
+"\n"
+"%1$s\n"
+"\n"
+"You can log in to the administrator account with the following information:\n"
+"\n"
+"Username: %2$s\n"
+"Password: %3$s\n"
+"Log in here: %4$s\n"
+"\n"
+"We hope you enjoy your new site. Thanks!\n"
+"\n"
+"--The WordPress Team\n"
+"https://wordpress.org/\n"
+msgstr ""
+"Tuáñr noya WordPress or sáith kamiyabi sáñte boni giyégói::\n"
+"\n"
+"%1$s\n"
+"\n"
+"Tuñí nise diyé de maalumat lóí entezam goróya'r hisáf ot góli faríba:\n"
+"\n"
+"Estemal goróya'r nam: %2$s\n"
+"Húfiawaádh: %3$s\n"
+"Yiáñt bútore gólo: %4$s\n"
+"\n"
+"Añára acá gorídde tuñí tuáñr noya sáith lói moza goríba. Cúkuria!\n"
+"\n"
+"-- WordPress Thiím\n"
+"https://wordpress.org/\n"
+
+#: wp-admin/themes.php:173
+msgid "You cannot delete a theme while it has an active child theme."
+msgstr "Tuñí uggwá tehm haçi no faribá zeñtte ibáttu uggwá fua tehm salu asé."
+
+#: wp-admin/options-discussion.php:224
+msgid "Mystery Person"
+msgstr "Luwaiya Manúic"
+
+#: wp-admin/includes/dashboard.php:1130
+msgid "https://planet.wordpress.org/feed/"
+msgstr "https://planet.wordpress.org/feed/"
+
+#: wp-admin/includes/dashboard.php:1121 wp-admin/index.php:76
+#: wp-admin/index.php:82
+msgid "https://planet.wordpress.org/"
+msgstr "https://planet.wordpress.org/"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:578
+msgid "Untested with your version of WordPress"
+msgstr "Tuáñr WordPress or varcén lói teés no goijjá"
+
+#: wp-admin/includes/class-wp-links-list-table.php:113
+#: wp-admin/includes/class-wp-posts-list-table.php:449
+msgid "Filter by category"
+msgstr "Kisím loi salo"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:327
+msgid "Filter by comment type"
+msgstr "Rai or kisím loi salo"
+
+#: wp-admin/includes/ajax-actions.php:3112
+msgid "You are now logged out everywhere else."
+msgstr "Tuñí ehón oinno beggúlattú baáre neeilí giyógói."
+
+#. translators: 1: User's display name.
+#: wp-admin/includes/ajax-actions.php:3116
+msgid "%s has been logged out."
+msgstr "%s baáre neeilí giyógói."
+
+#: wp-admin/includes/ajax-actions.php:3104
+msgid "Could not log out user sessions. Please try again."
+msgstr "Estemal goróya'r secén ókkol óttu baáre neeilí no farér. Meérbanigorí abbar kucícgoró."
+
+#: wp-admin/edit-tag-form.php:149 wp-admin/edit-tags.php:399
+msgctxt "term parent"
+msgid "Parent"
+msgstr "Uore"
+
+#: wp-admin/includes/ajax-actions.php:3011
+msgid "This preview is unavailable in the editor."
+msgstr "Agorisaá yián edhithar or bútore moujut nái."
+
+#: wp-admin/includes/class-wp-screen.php:1047
+msgctxt "Welcome panel"
+msgid "Welcome"
+msgstr "Estekbal gorázar"
+
+#: wp-admin/menu.php:192
+msgctxt "theme editor"
+msgid "Editor"
+msgstr "Edhithar"
+
+#: wp-admin/includes/class-wp-users-list-table.php:193
+msgctxt "users"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Beggún <span class=\"count\">(%s)</span>"
+
+#: wp-admin/edit-link-form.php:94
+#: wp-admin/includes/class-wp-links-list-table.php:128
+msgctxt "link name"
+msgid "Name"
+msgstr "Nam"
+
+#: wp-admin/credits.php:121
+msgid "Release Lead"
+msgstr "Ófan Erido"
+
+#: wp-admin/plugin-install.php:48
+msgid "Add Plugins"
+msgstr "Modhul ókkol ezafágoró"
+
+#: wp-admin/includes/translation-install.php:23
+msgid "Invalid translation type."
+msgstr "Gairsóiyi torjuma'r kisím."
+
+#: wp-admin/edit-tags.php:535 wp-admin/options-general.php:352
+msgid "Note:"
+msgstr "Nuth:"
+
+#: wp-admin/options-general.php:352 wp-admin/options-general.php:356
+msgid "The %s constant in your %s file is no longer needed."
+msgstr "Ekdhoilla %s tuáñr %s fail or bútore ar zorurot nái."
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:580
+msgid "<strong>Incompatible</strong> with your version of WordPress"
+msgstr "Tuáñr WordPress or varcén lói <strong>Mutabek Nói</strong>"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:582
+msgid "<strong>Compatible</strong> with your version of WordPress"
+msgstr "Tuáñr WordPress or varcén or <strong>mutabek asé</strong>"
+
+#: wp-admin/includes/plugin-install.php:627
+msgid "%d star"
+msgid_plural "%d stars"
+msgstr[0] "%d tara ókkol"
+
+#: wp-admin/includes/class-wp-list-table.php:461
+msgid "Select bulk action"
+msgstr "Bicí ékcen basílo"
+
+#: wp-admin/includes/template.php:714
+msgid "Month"
+msgstr "Mac"
+
+#: wp-admin/includes/template.php:724
+msgid "Day"
+msgstr "Din"
+
+#: wp-admin/includes/template.php:726
+msgid "Hour"
+msgstr "Góndha"
+
+#: wp-admin/includes/template.php:727
+msgid "Minute"
+msgstr "Miníth"
+
+#: wp-admin/theme-install.php:292
+msgctxt "Button label for a theme"
+msgid "Previous"
+msgstr "Fisór"
+
+#: wp-admin/theme-install.php:293
+msgctxt "Button label for a theme"
+msgid "Next"
+msgstr "Baade"
+
+#: wp-admin/update-core.php:196
+msgid "BETA TESTERS:"
+msgstr "Bitha Theésgoróya ókkol:"
+
+#: wp-admin/update-core.php:196
+msgid "This site is set up to install updates of future beta versions automatically."
+msgstr "Sáith yián mustakbel or bitha varcén ókkol or tazagoríbar maalumat ókkol nizebaze fíthgoríbellá séth gorá giyé."
+
+#: wp-admin/includes/ajax-actions.php:2981
+msgid "%s failed to embed."
+msgstr "%s fúañtigoríte félgiyé."
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:91
+msgctxt "Plugin Installer"
+msgid "Beta Testing"
+msgstr "Bitha Theés"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:402
+msgctxt "Plugin installer group title"
+msgid "Performance"
+msgstr "Hamdóon"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:403
+msgctxt "Plugin installer group title"
+msgid "Social"
+msgstr "Cómaji"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:404
+msgctxt "Plugin installer group title"
+msgid "Tools"
+msgstr "Hamor sáman"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:507
+msgid "More Details"
+msgstr "Aró Tofsil ókkol"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:788
+msgid "View details"
+msgstr "Tofsil Soó"
+
+#: wp-admin/includes/class-wp-terms-list-table.php:188
+msgctxt "Number/count of items"
+msgid "Count"
+msgstr "Gon"
+
+#: wp-admin/includes/class-wp-theme-install-list-table.php:67
+msgctxt "themes"
+msgid "Recently Updated"
+msgstr "Ehón Tazagoijjé"
+
+#: wp-admin/includes/plugin-install.php:494
+msgctxt "Plugin installer section title"
+msgid "Reviews"
+msgstr "Nozorsáni ókkol"
+
+#: wp-admin/includes/plugin-install.php:603
+#: wp-admin/includes/plugin-install.php:657
+msgid "Donate to this plugin &#187;"
+msgstr "Modhul ibát sañda do &#187;"
+
+#: wp-admin/includes/plugin-install.php:637
+msgid "Contributors"
+msgstr "Híssadoya ókkol"
+
+#: wp-admin/theme-install.php:211
+msgid "Filtering by:"
+msgstr "Lói salo:"
+
+#: wp-admin/theme-install.php:57 wp-admin/theme-install.php:221
+#: wp-admin/themes.php:142 wp-admin/themes.php:301
+msgid "No themes found. Try a different search."
+msgstr "Honó tehm noófa. Aruggwá alok tuai soó."
+
+#: wp-admin/includes/image-edit.php:105
+msgid "To crop the image, click on it and drag to make your selection."
+msgstr "Fothú cáçíbélla, yián ot klikgoró ar tuñí basí loibélla tañno."
+
+#: wp-admin/includes/media.php:2827
+msgid "Displayed on attachment pages."
+msgstr "Lagaiyá sófa ókkol ot daháiye."
+
+#: wp-admin/includes/class-wp-comments-list-table.php:329
+msgid "All comment types"
+msgstr "Beggún rai or kisím ókkol"
+
+#: wp-admin/includes/class-wp-theme-install-list-table.php:64
+#: wp-admin/theme-install.php:155
+msgctxt "themes"
+msgid "Featured"
+msgstr "Húbiwala"
+
+#: wp-admin/theme-install.php:156
+msgctxt "themes"
+msgid "Popular"
+msgstr "Mocóur"
+
+#: wp-admin/includes/class-wp-theme-install-list-table.php:66
+#: wp-admin/theme-install.php:157
+msgctxt "themes"
+msgid "Latest"
+msgstr "Taza"
+
+#: wp-admin/theme-install.php:23
+msgid "Add Themes"
+msgstr "Tehm Ókkol Ezafágoró"
+
+#: wp-admin/theme-install.php:47
+msgid "Search Themes"
+msgstr "Tehm Ókkol Tua"
+
+#: wp-admin/theme-install.php:48
+msgid "Search themes..."
+msgstr "Tehm ókkol tua..."
+
+#: wp-admin/theme-install.php:250
+msgctxt "theme"
+msgid "Details &amp; Preview"
+msgstr "Tofsil ókkol &amp; Agorisoó"
+
+#: wp-admin/maint/repair.php:147
+msgid "https://wordpress.org/support/forum/how-to-and-troubleshooting"
+msgstr "https://wordpress.org/support/forum/how-to-and-troubleshooting"
+
+#: wp-admin/includes/ms.php:990 wp-admin/users.php:273
+msgid "Delete all content."
+msgstr "Hazorjiníc beggún haçiféla."
+
+#: wp-admin/includes/ms.php:992 wp-admin/users.php:275
+msgid "Attribute all content to:"
+msgstr "Hazorjiníc beggún ikka húbigor:"
+
+#: wp-admin/users.php:267
+msgid "What should be done with content owned by this user?"
+msgstr "Estemalgoróya ibár hazorjiníc loi ki gorá foribóu?"
+
+#: wp-admin/revision.php:79
+msgid "&larr; Return to editor"
+msgstr "&larr; Poigam or edhithar or ikka wapes zoo"
+
+#: wp-admin/includes/ajax-actions.php:1773
+msgid "Type"
+msgstr "Kisím"
+
+#: wp-admin/admin-footer.php:34
+msgid "Thank you for creating with <a href=\"%s\">WordPress</a>."
+msgstr "<a href=\"%s\">WordPress</a> lói toiyar goijjó yián ólla bicí cúkuria."
+
+#: wp-admin/credits.php:42 wp-admin/credits.php:104
+msgid "https://make.wordpress.org/"
+msgstr "https://make.wordpress.org/"
+
+#: wp-admin/includes/dashboard.php:1492
+msgid "Manage widgets"
+msgstr "Wíjeth ókkol sóoñló"
+
+#: wp-admin/includes/dashboard.php:1494
+msgid "Manage menus"
+msgstr "Mínu ókkol sóoñló"
+
+#: wp-admin/includes/meta-boxes.php:101
+msgid "Edit status"
+msgstr "Hásiyot sóiyigoró"
+
+#: wp-admin/includes/meta-boxes.php:148
+msgid "Edit visibility"
+msgstr "Daházoon sóiyigoró"
+
+#: wp-admin/includes/meta-boxes.php:204
+msgid "Browse revisions"
+msgstr "Rivicén ókkol tuaineeilá"
+
+#: wp-admin/edit-form-comment.php:102 wp-admin/includes/meta-boxes.php:212
+msgid "Edit date and time"
+msgstr "Tarík ar woktó sóiyigoró"
+
+#: wp-admin/themes.php:140
+msgid "Search installed themes..."
+msgstr "Fíthgoijjá tehm ókkol tua..."
+
+#: wp-admin/about.php:35
+msgid "Welcome to WordPress&nbsp;%s"
+msgstr "WordPress&nbsp;%s ot estekbal gorázar"
+
+#: wp-admin/includes/dashboard.php:258
+msgid "%s Post"
+msgid_plural "%s Posts"
+msgstr[0] "%s Poigam ókkol"
+
+#: wp-admin/includes/dashboard.php:260
+msgid "%s Page"
+msgid_plural "%s Pages"
+msgstr[0] "%s Sófa ókkol"
+
+#. translators: Number of comments in moderation
+#: wp-admin/includes/ajax-actions.php:381
+#: wp-admin/includes/ajax-actions.php:1087 wp-admin/includes/dashboard.php:281
+msgctxt "comments"
+msgid "%s in moderation"
+msgid_plural "%s in moderation"
+msgstr[0] "%s fáisela'r bútore"
+
+#. translators: date and time format for recent posts on the dashboard, see
+#. https://secure.php.net/date
+#: wp-admin/includes/dashboard.php:853
+msgid "M jS"
+msgstr "M jS"
+
+#. translators: number of megabytes
+#: wp-admin/includes/dashboard.php:1303
+msgid "%s MB Space Allowed"
+msgstr "%s MB Hálizaga Ejazot Asé"
+
+#. translators: 1: number of megabytes, 2: percentage
+#: wp-admin/includes/dashboard.php:1315
+msgid "%1$s MB (%2$s%%) Space Used"
+msgstr "%1$s MB (%2$s%%) Hálizaga Estemalgoijjé"
+
+#: wp-admin/includes/dashboard.php:39
+msgid "At a Glance"
+msgstr "Ek Nozor ot"
+
+#: wp-admin/includes/theme.php:248
+msgid "Accessibility Ready"
+msgstr "Sóulot Toiyar"
+
+#: wp-admin/includes/theme.php:663 wp-admin/themes.php:460
+msgid "This is a child theme of %s."
+msgstr "Ibá uggwá %s or fua tehm."
+
+#: wp-admin/themes.php:74
+msgid "Hover or tap to see Activate and Live Preview buttons"
+msgstr "Salugor arde dhaárik agorisaá de bothon okkol saibélla gúra yá sibo"
+
+#: wp-admin/themes.php:77
+msgid "The current theme is displayed highlighted as the first theme."
+msgstr "Ehónor tehm oré foóila tehm hísafe waazégoijjé."
+
+#: wp-admin/themes.php:75
+msgid "Click on the theme to see the theme name, version, author, description, tags, and the Delete link"
+msgstr "Tehm or nam, varcén, lekóya, tofsil, hót ókkol ar rabeta haçó waghera ré saibélla tehm or uore klikgoró"
+
+#: wp-admin/themes.php:76
+msgid "Click Customize for the current theme or Live Preview for any other theme to see a live preview"
+msgstr "Ehónor tehm ólla Háaic mozin oré klikgoró yá oinno honó tehm oré dhaárik agorisaibélla dhaárik agorisoó."
+
+#. translators: 1: The rating, 2: The number of ratings
+#: wp-admin/includes/template.php:2098
+msgid "%1$s rating based on %2$s rating"
+msgid_plural "%1$s rating based on %2$s ratings"
+msgstr[0] "%2$s dam ókkol uore buniyadgorí %1$s dam"
+
+#. translators: 1: The rating
+#: wp-admin/includes/template.php:2102
+msgid "%s rating"
+msgstr "%s dam"
+
+#. translators: 1: Error code, 2: Error message.
+#: wp-admin/includes/class-wp-automatic-updater.php:880
+msgid "Rollback Error: [%1$s] %2$s"
+msgstr "Golot Wapeslo: [%1$s] %2$s"
+
+#. translators: 1: Error code, 2: Error message.
+#: wp-admin/includes/class-wp-automatic-updater.php:883
+msgid "Error: [%1$s] %2$s"
+msgstr "Golot: [%1$s] %2$s"
+
+#: wp-admin/includes/class-wp-automatic-updater.php:808
+msgid "The following themes were successfully updated:"
+msgstr "Nisór tehm ókkol kamiyabi sáñte taza ói giyégói:"
+
+#: wp-admin/includes/class-wp-automatic-updater.php:809
+msgid "The following translations were successfully updated:"
+msgstr "Nisór torjuma ókkol kamiyabi sáñte taza ói giyégói:"
+
+#: wp-admin/includes/class-wp-automatic-updater.php:820
+msgid "The following plugins failed to update:"
+msgstr "Nisór modhul ókkol taza óite félgiyé:"
+
+#: wp-admin/includes/class-wp-automatic-updater.php:821
+msgid "The following themes failed to update:"
+msgstr "Nisór tehm ókkol taza óite félgiyé:"
+
+#: wp-admin/includes/class-wp-automatic-updater.php:822
+msgid "The following translations failed to update:"
+msgstr "Nisór torjuma ókkol taza óite félgiyé:"
+
+#: wp-admin/includes/class-wp-automatic-updater.php:807
+msgid "The following plugins were successfully updated:"
+msgstr "Nisór modhul ókkol kamiyabi sáñte taza ói giyégói:"
+
+#: wp-admin/post.php:72
+msgid "Unable to submit this form, please refresh and try again."
+msgstr "Fórom yián zomadi no faré, meérbanigori tazagoró ar abbar kucícgoró."
+
+#: wp-admin/theme-install.php:46 wp-admin/themes.php:138
+msgid "Add New Theme"
+msgstr "Noya Tehm Ezafágoró"
+
+#: wp-admin/themes.php:158
+msgctxt "Add new theme"
+msgid "Add New"
+msgstr "Noya Ezafágoró"
+
+#: wp-admin/themes.php:453
+msgid "Update Available"
+msgstr "Tazagoríbar Maalumat Moujut Asé"
+
+#: wp-admin/includes/theme.php:641 wp-admin/themes.php:431
+msgid "Show previous theme"
+msgstr "Fisór tehm dahá"
+
+#: wp-admin/includes/theme.php:642 wp-admin/themes.php:432
+msgid "Show next theme"
+msgstr "Baader tehm dahá"
+
+#: wp-admin/themes.php:134
+msgid ""
+"Are you sure you want to delete this theme?\n"
+"\n"
+"Click 'Cancel' to go back, 'OK' to confirm the delete."
+msgstr ""
+"Tuñí tehm ibá haçifélaibá de fakka né?\n"
+"\n"
+"Wapes zaibellá 'Kensel' klikgoró, Fakka haçíbélla 'Oke' klikgoró."
+
+#: wp-admin/widgets.php:506
+msgid "Add Widget"
+msgstr "Wíjeth Ezafágoró"
+
+#: wp-admin/index.php:56
+msgid "<strong>Screen Options</strong> &mdash; Use the Screen Options tab to choose which Dashboard boxes to show."
+msgstr "<strong>Eskírin Ektiyar Ókkol</strong> &mdash; Hon muúmorbudh or fethi ókkol basí lóibélla eskírin ektiyar ókkol or hót estemalgoró."
+
+#: wp-admin/includes/class-wp-automatic-updater.php:786
+msgid "WordPress site: %s"
+msgstr "WordPress or sáith: %s"
+
+#: wp-admin/includes/class-wp-automatic-updater.php:792
+msgid "SUCCESS: WordPress was successfully updated to %s"
+msgstr "KAMIYABI: WordPress kamiyabi sáñte %s ot taza ói giyégóí."
+
+#: wp-admin/includes/class-wp-automatic-updater.php:794
+msgid "FAILED: WordPress failed to update to %s"
+msgstr "FÉLGIYÉ: WordPress %s ot taza óite félgiyégóí."
+
+#: wp-admin/includes/class-wp-automatic-updater.php:814
+msgid "SUCCESS: %s"
+msgstr "KAMIYABI: %s"
+
+#: wp-admin/includes/class-wp-automatic-updater.php:828
+msgid "FAILED: %s"
+msgstr "FÉLGIYÉ: %s"
+
+#: wp-admin/includes/dashboard.php:46
+msgid "Activity"
+msgstr "Lorasora"
+
+#: wp-admin/includes/dashboard.php:56
+msgid "WordPress News"
+msgstr "WordPress Hóbor ókkol"
+
+#. translators: 1: version number, 2: theme name
+#: wp-admin/includes/update.php:286
+msgid "WordPress %1$s running %2$s theme."
+msgstr "WordPress %1$s soler %2$s tehm."
+
+#: wp-admin/includes/dashboard.php:515
+msgid "What&#8217;s on your mind?"
+msgstr "Tuáñr demak ot ki asé?"
+
+#: wp-admin/includes/dashboard.php:568
+msgctxt "drafts"
+msgid "View all"
+msgstr "Beggún soó"
+
+#: wp-admin/includes/dashboard.php:768
+msgid "Publishing Soon"
+msgstr "Joldi Baáir Óibou"
+
+#: wp-admin/includes/dashboard.php:775
+msgid "Recently Published"
+msgstr "Ehón Baáirgoijjé"
+
+#: wp-admin/includes/dashboard.php:784
+msgid "No activity yet!"
+msgstr "Ájjo honó lorasora nái!"
+
+#: wp-admin/includes/dashboard.php:847
+msgid "Tomorrow"
+msgstr "Hailla"
+
+#: wp-admin/includes/dashboard.php:1260
+msgid "Popular Plugin"
+msgstr "Mocóur Modhul"
+
+#: wp-admin/includes/dashboard.php:1310 wp-admin/includes/dashboard.php:1323
+msgid "Manage Uploads"
+msgstr "Uoretulá ókkol Sóoñló"
+
+#: wp-admin/includes/class-wp-automatic-updater.php:851
+msgid "[%s] There were failures during background updates"
+msgstr "[%s] Éçe fisór tazagoríbar maalumat or woktót fél ókkol óoil."
+
+#: wp-admin/includes/class-wp-automatic-updater.php:853
+msgid "[%s] Background updates have finished"
+msgstr "[%s] Fisór tazagoríbar maalumat hótom óiye"
+
+#: wp-admin/includes/dashboard.php:51
+msgid "Quick Draft"
+msgstr "Joldi Tooitta"
+
+#: wp-admin/includes/dashboard.php:51 wp-admin/includes/dashboard.php:570
+msgid "Drafts"
+msgstr "Tooitta ókkol"
+
+#: wp-admin/includes/class-wp-automatic-updater.php:652
+msgid "WordPress %s is also now available."
+msgstr "Yaa WordPress %s yó moujut asé."
+
+#: wp-admin/includes/class-wp-automatic-updater.php:716
+msgid "Your site was running version %s."
+msgstr "Tuáñr sáith solerdé várcen %s aiccíl."
+
+#: wp-admin/includes/class-wp-automatic-updater.php:676
+msgid "Your site at %1$s experienced a critical failure while trying to update WordPress to version %2$s."
+msgstr "Tuáñr sáith %1$s ekkán nazuk fél or háalot oré maásus goijjé zeñtte WordPress or varcén %2$s ot taza goríbar kucíc goijjé."
+
+#: wp-admin/includes/class-language-pack-upgrader-skin.php:29
+#: wp-admin/update-core.php:423 wp-admin/update-core.php:742
+msgid "Update Translations"
+msgstr "Torjuma Ókkol Tazagoró"
+
+#: wp-admin/includes/class-language-pack-upgrader-skin.php:47
+#: wp-admin/includes/class-wp-automatic-updater.php:320
+msgid "Updating translations for %1$s (%2$s)&#8230;"
+msgstr "%1$s (%2$s)&#8230; ólla torjuma ókkol tazagorír"
+
+#: wp-admin/includes/class-wp-automatic-updater.php:319
+msgid "Translations for %s"
+msgstr "%s ólla torjuma ókkol"
+
+#. translators: 1: Site name, 2: WordPress version number.
+#: wp-admin/includes/class-wp-automatic-updater.php:615
+msgid "[%1$s] Your site has updated to WordPress %2$s"
+msgstr "[%1$s] Tuáñr sáith WordPress %2$s ot taza ói giyégói."
+
+#. translators: 1: Site name, 2: WordPress version number.
+#: wp-admin/includes/class-wp-automatic-updater.php:621
+msgid "[%1$s] WordPress %2$s is available. Please update!"
+msgstr "[%1$s] WordPress %2$s moujut asé. Meérbanigorí tazagoró!"
+
+#. translators: 1: Site name.
+#: wp-admin/includes/class-wp-automatic-updater.php:626
+msgid "[%1$s] URGENT: Your site may be down due to a failed update"
+msgstr "[%1$s] FÓURAN: Óitfare tuáñr sáíth ekkán maalumat tazagorár fél ollá bóuli nise giyégói."
+
+#: wp-admin/includes/class-wp-automatic-updater.php:641
+msgid "Howdy! Your site at %1$s has been updated automatically to WordPress %2$s."
+msgstr "Keén asó! Tuáñr sáith%1$s nizebaze WordPress %2$s ot taza ói giyégói."
+
+#: wp-admin/includes/class-wp-automatic-updater.php:644
+msgid "No further action is needed on your part."
+msgstr "Tuáñr híssa uore ar honó ékcen or zorurot nái."
+
+#: wp-admin/includes/class-wp-automatic-updater.php:648
+msgid "For more on version %s, see the About WordPress screen:"
+msgstr "Aró varcén %s ólla, WordPress or Baabote eskírin soó:"
+
+#: wp-admin/includes/class-wp-automatic-updater.php:661
+msgid "Please update your site at %1$s to WordPress %2$s."
+msgstr "Meérbanigorí tuáñr sáith %1$s oré WordPress %2$s ot tazagoró."
+
+#: wp-admin/includes/class-wp-automatic-updater.php:668
+msgid "We tried but were unable to update your site automatically."
+msgstr "Añára kucíc goijjílam lékin tuáñr sáith oré tazagorí no farí."
+
+#: wp-admin/includes/class-wp-automatic-updater.php:653
+#: wp-admin/includes/class-wp-automatic-updater.php:670
+msgid "Updating is easy and only takes a few moments:"
+msgstr "Tazagorá asán ar siríf kessú cóme lo:"
+
+#: wp-admin/includes/class-wp-automatic-updater.php:678
+msgid "Your site at %1$s experienced a critical failure while trying to update to the latest version of WordPress, %2$s."
+msgstr "Tuáñr sáith %1$s ekkán nazuk fél or háalot oré maásus goijjé zeñtte WordPress or taza varcén %2$s ot taza goríbar kucíc goijjé."
+
+#: wp-admin/includes/class-wp-automatic-updater.php:680
+msgid "This means your site may be offline or broken. Don't panic; this can be fixed."
+msgstr "Yián maáni tuáñr sáith óitfare lain ór baáre yá báñgga asé. No dhoraiyó; yián thík gorí faribóu."
+
+#: wp-admin/includes/class-wp-automatic-updater.php:712
+msgid "The WordPress Team"
+msgstr "WordPress or Thiím"
+
+#: wp-admin/includes/class-wp-automatic-updater.php:731
+msgid "Error code: %s"
+msgstr "Golot or kudh: %s"
+
+#: wp-admin/includes/post.php:1583
+msgid "This content is currently locked."
+msgstr "Hazorjiníc yián ehón ot thalamaijjá asé."
+
+#: wp-admin/includes/post.php:1585
+msgid "If you take over, %s will be blocked from continuing to edit."
+msgstr "Zodi tuñí loilé, %s oré sóiyi gorá zarirak áttu bongorá zaibóu."
+
+#: wp-admin/update-core.php:178
+msgid "Future security updates will be applied automatically."
+msgstr "Mustakbel or héfazot or tazagoríbar maalumat nizebaze laga zaibóu."
+
+#: wp-admin/update-core.php:411 wp-admin/update-core.php:419
+msgid "Translations"
+msgstr "Torjuma ókkol"
+
+#: wp-admin/update-core.php:412
+msgid "Your translations are all up to date."
+msgstr "Tuáñr beggún torjuma ókkol taza asé."
+
+#: wp-admin/includes/class-language-pack-upgrader.php:119
+msgid "Downloading translation from <span class=\"code\">%s</span>&#8230;"
+msgstr "Torjuma <span class=\"code\">%s</span>&#8230; óttu niselamar"
+
+#: wp-admin/includes/class-language-pack-upgrader.php:121
+msgid "Translation update failed."
+msgstr "Torjuma tazagorá félgiyé."
+
+#: wp-admin/includes/class-language-pack-upgrader.php:122
+msgid "Translation updated successfully."
+msgstr "Torjuma kamiyabi sáñte taza ói giyégói."
+
+#: wp-admin/includes/class-wp-automatic-updater.php:309
+msgid "Updating theme: %s"
+msgstr "Tehm tazagorér: %s"
+
+#: wp-admin/includes/class-wp-automatic-updater.php:315
+msgid "Updating plugin: %s"
+msgstr "Modhul tazagorér: %s"
+
+#: wp-admin/includes/update-core.php:988
+msgid "There is not enough free disk space to complete the update."
+msgstr "Tazagorá mukómmol goribálla éçe honó bicí hálizaga nái."
+
+#: wp-admin/options-discussion.php:145
+msgid "Comment must be manually approved"
+msgstr "Rai hámahá háte monzur gorá foribóu"
+
+#: wp-admin/user-new.php:382
+msgid "Create a brand new user and add them to this site."
+msgstr "Uggwá noya márha estemalgoróya toiyargoró ar ibáre sáith yián ot ezafágoró."
+
+#: wp-admin/install.php:369
+msgid "Sorry, that isn&#8217;t a valid email address. Email addresses look like <code>username@example.com</code>."
+msgstr "Mafsaái, yían ekkán sóiyi b-ciñçí'r thíkana nói. B-ciñçír thíkana ókkol <code>username@example.com</code> dhóilla daháza."
+
+#: wp-admin/install.php:364
+msgid "You must provide an email address."
+msgstr "Tuáñrtu ekkán b-ciñçír thíkana hámahá diya foribóu."
+
+#. translators: 1: folder to locate, 2: folder to start searching from
+#: wp-admin/includes/class-wp-filesystem-base.php:257
+msgid "Looking for %1$s in %2$s"
+msgstr "%1$s oré %2$s or bútore tuair"
+
+#: wp-admin/includes/class-core-upgrader.php:37
+msgid "Attempting to roll back to previous version."
+msgstr "Boçíwapes fisór varcén ot zaibar kucícgorér."
+
+#: wp-admin/includes/class-core-upgrader.php:38
+msgid "Due to an error during updating, WordPress has rolled back to your previous version."
+msgstr "Tazagoríbar woktót ekkán golot ollá bóuli, WordPress boçíwapes tuáñr fisór varcén ot giyégói."
+
+#: wp-admin/includes/class-wp-automatic-updater.php:302
+msgid "Updating to WordPress %s"
+msgstr "WordPress %s ot tazagorér"
+
+#: wp-admin/includes/class-wp-automatic-updater.php:303
+msgid "WordPress %s"
+msgstr "WordPress %s"
+
+#: wp-admin/includes/file.php:1219
+msgid "This password will not be stored on the server."
+msgstr "Húfiawaádh ibá sarvar ot bórierá no zaibóu."
+
+#: wp-admin/includes/update-core.php:879
+msgid "Preparing to install the latest version&#8230;"
+msgstr "Taza varcén&#8230; fíth goribélla toiyargorér"
+
+#: wp-admin/includes/update-core.php:941
+msgid "Copying the required files&#8230;"
+msgstr "Lagerde fail ókkol&#8230; oré kopígorér"
+
+#: wp-admin/install.php:350
+msgid "Please provide a valid username."
+msgstr "Meérbanigorí ekkán sóiyi estemalgoróya'r nam doo."
+
+#: wp-admin/install.php:354
+msgid "The username you provided has invalid characters."
+msgstr "Tuñí estemalgoróya'r nam diyó de yián ot gairsóiyi hórof ókkol asé."
+
+#: wp-admin/install.php:359
+msgid "Your passwords do not match. Please try again."
+msgstr "Tuáñr húfiawaádh ókkol ekkudhoilla nói. Meérbanigorí abbar kucícgoró."
+
+#: wp-admin/includes/edit-tag-messages.php:24
+msgid "Category added."
+msgstr "Kisím ezafá ói giyói."
+
+#: wp-admin/includes/edit-tag-messages.php:25
+msgid "Category deleted."
+msgstr "Kisím haçigiyói."
+
+#: wp-admin/includes/edit-tag-messages.php:29
+msgid "Categories deleted."
+msgstr "Kisím ókkol haçigiyói."
+
+#: wp-admin/includes/edit-tag-messages.php:35
+msgid "Tag deleted."
+msgstr "Hót haçigiyói."
+
+#: wp-admin/includes/edit-tag-messages.php:26
+msgid "Category updated."
+msgstr "Kisím taza ói giyói."
+
+#: wp-admin/includes/edit-tag-messages.php:27
+msgid "Category not added."
+msgstr "Kisím ezafá no yó."
+
+#: wp-admin/includes/edit-tag-messages.php:28
+msgid "Category not updated."
+msgstr "Kisím taza no yó."
+
+#: wp-admin/includes/edit-tag-messages.php:34
+msgid "Tag added."
+msgstr "Hót ezafá ói giyói."
+
+#: wp-admin/includes/edit-tag-messages.php:36
+msgid "Tag updated."
+msgstr "Hót taza ói giyói."
+
+#: wp-admin/includes/edit-tag-messages.php:37
+msgid "Tag not added."
+msgstr "Hót ezafá no yó."
+
+#: wp-admin/includes/edit-tag-messages.php:38
+msgid "Tag not updated."
+msgstr "Hót taza no yó."
+
+#: wp-admin/includes/edit-tag-messages.php:39
+msgid "Tags deleted."
+msgstr "Hót ókkol haçigiyói."
+
+#: wp-admin/edit.php:275
+msgid "%s post not updated, somebody is editing it."
+msgid_plural "%s posts not updated, somebody is editing them."
+msgstr[0] "%s poigam ókkol taza no yó, honókiyo yé hiín oré sóiyigorér."
+
+#: wp-admin/edit.php:276
+msgid "%s post permanently deleted."
+msgid_plural "%s posts permanently deleted."
+msgstr[0] "%s poigam ókkol mústakil haçigiyói."
+
+#: wp-admin/edit.php:277
+msgid "%s post moved to the Trash."
+msgid_plural "%s posts moved to the Trash."
+msgstr[0] "%s poigam ókkol dhasbin ot giyói."
+
+#: wp-admin/edit.php:278
+msgid "%s post restored from the Trash."
+msgid_plural "%s posts restored from the Trash."
+msgstr[0] "%s poigam ókkol dhasbin óttu wapes ai giyói."
+
+#: wp-admin/edit.php:281
+msgid "%s page updated."
+msgid_plural "%s pages updated."
+msgstr[0] "%s sófa ókkol taza ói giyói."
+
+#: wp-admin/edit.php:283
+msgid "%s page not updated, somebody is editing it."
+msgid_plural "%s pages not updated, somebody is editing them."
+msgstr[0] "%s sófa ókkol taza no yó, honókiyo yé hiín oré sóiyigorér."
+
+#: wp-admin/edit.php:284
+msgid "%s page permanently deleted."
+msgid_plural "%s pages permanently deleted."
+msgstr[0] "%s sófa ókkol mústakil haçigiyói."
+
+#: wp-admin/edit.php:285
+msgid "%s page moved to the Trash."
+msgid_plural "%s pages moved to the Trash."
+msgstr[0] "%s sófa ókkol dhasbin ot giyói."
+
+#: wp-admin/edit.php:286
+msgid "%s page restored from the Trash."
+msgid_plural "%s pages restored from the Trash."
+msgstr[0] "%s sófa ókkol dhasbin óttu wapes ai giyói."
+
+#: wp-admin/includes/revision.php:343
+msgid "Compare any two revisions"
+msgstr "Honó duiyán rivicén milai saá"
+
+#. translators: 1: audio track title, 2: album title, 3: artist name
+#: wp-admin/includes/media.php:308
+msgid "\"%1$s\" from %2$s by %3$s."
+msgstr "%3$s áta %2$s óttu \"%1$s\""
+
+#. translators: 1: audio track title, 2: album title
+#: wp-admin/includes/media.php:311
+msgid "\"%1$s\" from %2$s."
+msgstr "%2$s óttu \"%1$s\"."
+
+#. translators: 1: audio track title, 2: artist name
+#: wp-admin/includes/media.php:314
+msgid "\"%1$s\" by %2$s."
+msgstr "%2$s áta \"%1$s\"."
+
+#. translators: 1: audio track title
+#: wp-admin/includes/media.php:317
+msgid "\"%s\"."
+msgstr "\"%s\"."
+
+#. translators: Post revisions heading. 1: The number of available revisions
+#: wp-admin/includes/meta-boxes.php:202
+msgid "Revisions: %s"
+msgstr "Rivicén ókkol: %s"
+
+#: wp-admin/includes/meta-boxes.php:204
+msgctxt "revisions"
+msgid "Browse"
+msgstr "Tuaineeilá"
+
+#: wp-admin/includes/revision.php:360
+msgid "Autosave by %s"
+msgstr "%s or áta nizebaze bórierá giyé"
+
+#: wp-admin/includes/revision.php:363
+msgid "Current Revision by %s"
+msgstr "%s or áta ehón or rivicén"
+
+#: wp-admin/includes/revision.php:381
+msgid "Restore This Autosave"
+msgstr "Nizebaze Bórierá Yián Wapesanó"
+
+#: wp-admin/includes/revision.php:366
+msgid "Revision by %s"
+msgstr "%s or áta rivicén"
+
+#: wp-admin/includes/revision.php:395
+msgid "Sorry, something went wrong. The requested comparison could not be loaded."
+msgstr "Mafsaái, kessú golot óiye. Dorhás goijjá fúainnagorá loóudh ói nofaré."
+
+#: wp-admin/user-edit.php:560
+msgid "Repeat New Password"
+msgstr "Abbar Noya húfiawaádh"
+
+#: wp-admin/install.php:158 wp-admin/user-new.php:452
+msgid "Repeat Password"
+msgstr "Abbar Húfiawaádh"
+
+#: wp-admin/includes/nav-menu.php:914
+msgid "Add menu items from the column on the left."
+msgstr "Mínu'r jiníc ókkol bandhák or thúni't ezafágoró."
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/hello-dolly/"
+msgstr "http://wordpress.org/plugins/hello-dolly/"
+
+#: wp-admin/includes/class-theme-upgrader.php:70
+msgid "The theme contains no files."
+msgstr "Tehm ot honó fail ókkol nái."
+
+#: wp-admin/includes/class-wp-upgrader.php:168
+msgid "The package contains no files."
+msgstr "Bandhúl ot honó fail ókkol nái."
+
+#: wp-admin/customize.php:107
+msgid "Loading&hellip;"
+msgstr "Loóudh ór&hellip;"
+
+#: wp-admin/post.php:249
+msgid "This item has already been deleted."
+msgstr "Jiníc yián foóila loti haçi diya giyé."
+
+#: wp-admin/revision.php:111
+msgid "To restore a revision, <strong>click Restore This Revision</strong>."
+msgstr "Ekkán rivicén wapes aníballá, <strong>Rivicén Yián Wapesanó re klikgoró</strong>."
+
+#: wp-admin/includes/revision.php:354
+msgctxt "Followed by post revision info"
+msgid "To:"
+msgstr "Íkka:"
+
+#: wp-admin/includes/revision.php:352
+msgctxt "Followed by post revision info"
+msgid "From:"
+msgstr "Óttu:"
+
+#: wp-admin/includes/revision.php:325
+msgctxt "Button label for a previous revision"
+msgid "Previous"
+msgstr "Fisór"
+
+#: wp-admin/includes/revision.php:329
+msgctxt "Button label for a next revision"
+msgid "Next"
+msgstr "Baade"
+
+#: wp-admin/nav-menus.php:553
+msgid "Editing Menus"
+msgstr "Mínu ókkol Sóiyegoró"
+
+#: wp-admin/nav-menus.php:394
+msgid "Menu locations updated."
+msgstr "Mínu zaga ókkol taza ói giyói."
+
+#. translators: 1: audio album title, 2: artist name
+#: wp-admin/includes/media.php:324
+msgid "%1$s by %2$s."
+msgstr "%2$s or áta %1$s."
+
+#. translators: Audio file track information. 1: Year of audio track release
+#: wp-admin/includes/media.php:337
+msgid "Released: %d."
+msgstr "Eridiyé: %d."
+
+#. translators: Audio file track information. 1: Audio track number, 2: Total
+#. audio tracks
+#: wp-admin/includes/media.php:344
+msgid "Track %1$s of %2$s."
+msgstr "%2$s or Lain %1$s."
+
+#. translators: Audio file track information. 1: Audio track number
+#: wp-admin/includes/media.php:347
+msgid "Track %1$s."
+msgstr "Lain %1$s."
+
+#. translators: Audio file genre information. 1: Audio genre name
+#: wp-admin/includes/media.php:353
+msgid "Genre: %s."
+msgstr "Zanoya'r kisím: %s."
+
+#: wp-admin/includes/media.php:2947
+msgid "Audio Format:"
+msgstr "Abás or cokól:"
+
+#: wp-admin/includes/media.php:2948
+msgid "Audio Codec:"
+msgstr "Abás or Kodhek:"
+
+#: wp-admin/includes/post.php:1623
+msgid "Your latest changes were saved as a revision."
+msgstr "Tuáñr taza tobdil óll ekkán rivicén hísafe bórierá gíil."
+
+#: wp-admin/nav-menus.php:520
+msgid "This screen is used for managing your custom navigation menus."
+msgstr "Eskírin yián tuáñr háaic mozin duadui'r mínu ókkol entezam goríbélla estemal óiye."
+
+#: wp-admin/nav-menus.php:523 wp-admin/themes.php:73
+msgid "From this screen you can:"
+msgstr "Eskírin yián ottu tuñí faríba:"
+
+#: wp-admin/nav-menus.php:524
+msgid "Create, edit, and delete menus"
+msgstr "Mínu ókkol toiyargoró, sóiyigoró ar haçifélo"
+
+#: wp-admin/nav-menus.php:525
+msgid "Add, organize, and modify individual menu items"
+msgstr "Ekála mínu'r jiníc ókkol ezafágoró, bebostágoró, ar bodoló "
+
+#: wp-admin/nav-menus.php:534
+msgid "To edit an existing menu, <strong>choose a menu from the drop down and click Select</strong>"
+msgstr "Ekkán moujut aséde mínu ré sóiyi goribélla, <strong> lothki aséde éntu ekkán mínu basílo ar Basílo ré klikgoró</strong>"
+
+#: wp-admin/nav-menus.php:540
+msgid "Menu Management"
+msgstr "Mínu'r Entezam"
+
+#: wp-admin/nav-menus.php:595
+msgid "Edit Menus"
+msgstr "Mínu ókkol Sóiyigoró"
+
+#: wp-admin/nav-menus.php:597
+msgid "Manage Locations"
+msgstr "Zaga ókkol Entezamgoró"
+
+#: wp-admin/nav-menus.php:620
+msgid "Theme Location"
+msgstr "Tehm or Zaga"
+
+#: wp-admin/nav-menus.php:621
+msgid "Assigned Menu"
+msgstr "Mokoror goijjá Mínu"
+
+#: wp-admin/nav-menus.php:630
+msgid "Select a Menu"
+msgstr "Ekkán Mínu Basílo"
+
+#: wp-admin/nav-menus.php:642
+msgctxt "menu"
+msgid "Edit"
+msgstr "Sóiyigoró"
+
+#: wp-admin/nav-menus.php:648
+msgctxt "menu"
+msgid "Use new menu"
+msgstr "Noya mínu estemalgoró"
+
+#: wp-admin/includes/revision.php:383
+msgid "Restore This Revision"
+msgstr "Rivicén Yián Wapesanó"
+
+#: wp-admin/user-edit.php:658
+msgid "Capabilities"
+msgstr "Kabiliát ókkol"
+
+#: wp-admin/user-edit.php:666
+msgid "Denied: %s"
+msgstr "Manágoijjé: %s"
+
+#: wp-admin/includes/class-walker-nav-menu-edit.php:201
+msgid "Move"
+msgstr "Laro"
+
+#: wp-admin/includes/class-walker-nav-menu-edit.php:202
+msgid "Up one"
+msgstr "Uggwá uore"
+
+#: wp-admin/includes/class-walker-nav-menu-edit.php:203
+msgid "Down one"
+msgstr "Uggwá nise"
+
+#: wp-admin/includes/class-walker-nav-menu-edit.php:206
+msgid "To the top"
+msgstr "Uor mikka"
+
+#: wp-admin/nav-menus.php:770
+msgid "Menu Structure"
+msgstr "Mínu'r Hák"
+
+#: wp-admin/nav-menus.php:790
+msgid "Menu Settings"
+msgstr "Mínu'r Séthín ókkol"
+
+#: wp-admin/includes/template.php:2042
+msgid "The backup of this post in your browser is different from the version below."
+msgstr "Tuáñr braozar or bútore poigam yián or ezafíkopí nisor varcén óttu forók asé."
+
+#. translators: 1: Post creation date, 2: Post creation time
+#: wp-admin/includes/ajax-actions.php:1252
+msgid "Draft created on %1$s at %2$s"
+msgstr "Tooitta %1$s ot %2$s ot toiyar ói giyégói."
+
+#: wp-admin/post.php:218
+msgid "You cannot move this item to the Trash. %s is currently editing."
+msgstr "Tuñí cis yián dhasbin or íkka lari nofaríba. Ehón %s yé sóiyigorér."
+
+#: wp-admin/includes/post.php:1608
+msgid "Take over"
+msgstr "Bárai loifélo"
+
+#: wp-admin/includes/misc.php:788
+msgid "%s has taken over and is currently editing."
+msgstr "%s yé bárai loifélaiye ar ehón sóiyigorér."
+
+#: wp-admin/nav-menus.php:678
+msgid "Select a menu to edit:"
+msgstr "Sóiyigoribélla ekkán mínu basílo:"
+
+#: wp-admin/nav-menus.php:673
+msgid "Edit your menu below, or <a href=\"%s\">create a new menu</a>."
+msgstr "Nise tuáñr mínu sóiyigoró, yá <a href=\"%s\">ekkán noya mínu toiyargoró</a>."
+
+#: wp-admin/nav-menus.php:719
+msgid "or <a href=\"%s\">create a new menu</a>."
+msgstr "yá <a href=\"%s\">ekkán mínu toiyargoró</a>."
+
+#: wp-admin/includes/ms.php:785
+msgid "Thank you for Updating! Please visit the <a href=\"%s\">Upgrade Network</a> page to update all your sites."
+msgstr "Tazagoríbar cúkuria! Meérbanigorí tuáñr beggún sáith ókkol oré taza goribélla <a href=\"%s\">Nethwaák Tazagoríbar</a> sófa ré ziyarotgoró."
+
+#: wp-admin/includes/class-walker-nav-menu-edit.php:116
+msgid "sub item"
+msgstr "nisor jiníc"
+
+#: wp-admin/nav-menus.php:281
+msgid "Selected menus have been successfully deleted."
+msgstr "Basíloiyá mínu ókkol kamiyabi sáñte haçigiyói."
+
+#: wp-admin/nav-menus.php:803
+msgid "Auto add pages"
+msgstr "Sófa ókkol nizebaze ezafágoró"
+
+#: wp-admin/plugin-editor.php:275 wp-admin/theme-editor.php:266
+msgid "Look Up"
+msgstr "Talacgoró"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:910
+#: wp-admin/includes/misc.php:749
+msgid "%s is currently editing"
+msgstr "%s ehón sóiyi ór"
+
+#: wp-admin/includes/image-edit.php:194
+msgid "Image rotation is not supported by your web host."
+msgstr "Fothú fakkára tuáñr wébsáith or giróse hémayot no goré."
+
+#: wp-admin/includes/bookmark.php:312
+msgid "If you are looking to use the link manager, please install the <a href=\"%s\">Link Manager</a> plugin."
+msgstr "Zodi tuñí rabeta'r menéjar estemalgorito soódde óile, meérbanigorí guwá <a href=\"%s\">Rabeta'r Menéjar</a> or modhul gwá fíthgoró."
+
+#: wp-admin/includes/dashboard.php:1489
+msgid "Manage <a href=\"%1$s\">widgets</a> or <a href=\"%2$s\">menus</a>"
+msgstr "<a href=\"%1$s\">Wíjeth</a> yá <a href=\"%2$s\">mínu</a> ókkol sóoñló"
+
+#: wp-admin/edit-form-advanced.php:425
+msgid "Inserting Media"
+msgstr "Midhia Dhalér"
+
+#: wp-admin/edit-form-advanced.php:449
+msgid "Publish Settings"
+msgstr "Baáirgoríbar Séthín ókkol"
+
+#: wp-admin/async-upload.php:63
+msgctxt "media item"
+msgid "Edit"
+msgstr "Sóiyigoró"
+
+#: wp-admin/custom-header.php:692
+msgctxt "color"
+msgid "Default: %s"
+msgstr "Asási: %s"
+
+#. translators: column name
+#: wp-admin/includes/class-wp-media-list-table.php:308
+msgctxt "column name"
+msgid "Uploaded to"
+msgstr "Ikka uoretulá giyé"
+
+#: wp-admin/custom-background.php:454 wp-admin/custom-header.php:846
+#: wp-admin/includes/ajax-actions.php:2042
+msgid "The uploaded file is not a valid image. Please try again."
+msgstr "Uoretuillá fail ekkán sóiyi fothú nóí. Meérbanigorí abbar kucícgoró."
+
+#: wp-admin/custom-background.php:329
+msgid "Choose a Background Image"
+msgstr "Ekkán Fisórmonzor or Fothú Basílo"
+
+#: wp-admin/custom-header.php:592
+msgid "Choose a Custom Header"
+msgstr "Ekkán Háaic Mozin Matá Basílo"
+
+#: wp-admin/includes/dashboard.php:1484
+msgid "More Actions"
+msgstr "Aró Ékcen ókkol"
+
+#: wp-admin/includes/dashboard.php:1499
+msgid "Turn comments on or off"
+msgstr "Rai ókkol bongoró yá kúlo"
+
+#: wp-admin/includes/dashboard.php:1501
+msgid "Learn more about getting started"
+msgstr "Cúrugoríbar baabote aró cíko"
+
+#: wp-admin/includes/media.php:2859
+msgid "File URL:"
+msgstr "Fail or URL:"
+
+#. translators: 1: user id, 2: user login
+#: wp-admin/users.php:252
+msgid "ID #%1$s: %2$s <strong>The current user will not be deleted.</strong>"
+msgstr "ID #%1$s: %2$s <strong>Ehónor estemal goróya haçi diya no zaibóu.</strong>"
+
+#. translators: 1: user id, 2: user login
+#: wp-admin/users.php:255 wp-admin/users.php:388
+msgid "ID #%1$s: %2$s"
+msgstr "ID #%1$s: %2$s"
+
+#. translators: 1: user id, 2: user login
+#: wp-admin/users.php:382
+msgid "ID #%1$s: %2$s <strong>The current user will not be removed.</strong>"
+msgstr "ID #%1$s: %2$s <strong>Ehónor estemal goróya lariféla no zaibóu.</strong>"
+
+#. translators: Storage space that's been used. 1: Percentage of used space, 2:
+#. Total space allowed in megabytes or gigabytes
+#: wp-admin/includes/ms.php:481
+msgid "Used: %1$s%% of %2$s"
+msgstr "Estemal óiye: %1$s%% ór %2$s"
+
+#: wp-admin/users.php:235
+msgid "Please select an option."
+msgstr "Meérbanigorí ekkán ektiyar basílo."
+
+#: wp-admin/includes/ms.php:352
+msgid "<strong>ERROR</strong>: The email address is already used."
+msgstr "<strong>GOLOT</strong>: B-ciñçír thíkana yián foóila loti estemal óiye."
+
+#: wp-admin/includes/image-edit.php:259 wp-admin/includes/image-edit.php:324
+#: wp-admin/includes/image-edit.php:466
+msgid "$image needs to be an WP_Image_Editor object"
+msgstr "$image ekkán WP_Image_Editor or ciz óibar zorurot asé"
+
+#: wp-admin/install.php:191 wp-admin/install.php:198
+#: wp-admin/options-reading.php:117 wp-admin/options-reading.php:137
+msgid "Discourage search engines from indexing this site"
+msgstr "Tuaisaáde ingin ókkol oré sáith yián oré liísgoráttu hímmot hára."
+
+#: wp-admin/install.php:189 wp-admin/options-reading.php:115
+msgid "Allow search engines to index this site"
+msgstr "Tuaisaáde ingin óll oré sáith yián oré liís goribar ejazotdo."
+
+#: wp-admin/install.php:182 wp-admin/install.php:185
+#: wp-admin/options-reading.php:31 wp-admin/options-reading.php:111
+#: wp-admin/options-reading.php:112
+msgid "Search Engine Visibility"
+msgstr "Tuaisaáde Ingin or Dahá"
+
+#: wp-admin/includes/template.php:1266
+msgid "The privacy options group has been removed. Use another settings group."
+msgstr "Razdari'r ektiyar ókkol or gurúp larifélagiyé. Aruggwá séthín ókkol or gurúp estemal goró."
+
+#: wp-admin/includes/dashboard.php:1475
+msgid "Add a blog post"
+msgstr "Ekkán bolog poigam ezafágoró"
+
+#: wp-admin/includes/dashboard.php:1477
+msgid "Write your first blog post"
+msgstr "Tuáñr foóila bolog poigam lekó"
+
+#: wp-admin/includes/dashboard.php:1478
+msgid "Add an About page"
+msgstr "Uggwá Baabot or sófa ezafágoró"
+
+#: wp-admin/includes/dashboard.php:1480
+msgid "View your site"
+msgstr "Tuáñr sáith soó"
+
+#. translators: Attachment information. 1: Date the attachment was uploaded
+#: wp-admin/includes/meta-boxes.php:310
+msgid "Uploaded on: <b>%1$s</b>"
+msgstr "Uoretuille: <b>%1$s</b>"
+
+#: wp-admin/includes/plugin-install.php:321
+msgid "If you have marked plugins as favorites on WordPress.org, you can browse them here."
+msgstr "Zodi tuñí WordPress.org or uore modhul ókkol oré fosón hísafe maák goijjó de óile, tuñí hiín oré yiáñt tuaineeilá faríba."
+
+#: wp-admin/includes/plugin-install.php:325 wp-admin/theme-install.php:178
+msgid "Your WordPress.org username:"
+msgstr "Tuáñr WordPress.org or estemalgoróya'r nam:"
+
+#: wp-admin/includes/plugin-install.php:327 wp-admin/theme-install.php:181
+msgid "Get Favorites"
+msgstr "Fosón ókkol háñsilgoró"
+
+#: wp-admin/includes/dashboard.php:341
+msgid "Search Engines Discouraged"
+msgstr "Tuaisaíbar ingin ókkol or hímmot háraiya"
+
+#: wp-admin/includes/dashboard.php:1458
+msgid "Get Started"
+msgstr "Cúrugoró"
+
+#: wp-admin/includes/dashboard.php:1463
+msgid "or, <a href=\"%s\">change your theme completely</a>"
+msgstr "yá, <a href=\"%s\">tuáñr tehm furafuri bodoló</a>"
+
+#: wp-admin/includes/dashboard.php:1453
+msgid "Welcome to WordPress!"
+msgstr "WordPress ot Estekbal Gorázar!"
+
+#: wp-admin/includes/dashboard.php:1467
+msgid "Next Steps"
+msgstr "Yárbaade"
+
+#: wp-admin/includes/dashboard.php:1470 wp-admin/includes/dashboard.php:1473
+msgid "Edit your front page"
+msgstr "Tuáñr muúm or sófa sóiyigoró"
+
+#: wp-admin/includes/dashboard.php:1471 wp-admin/includes/dashboard.php:1474
+msgid "Add additional pages"
+msgstr "Aró sófa ókkol ezafágoró"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:96
+msgctxt "Plugin Installer"
+msgid "Favorites"
+msgstr "Fosón ókkol"
+
+#: wp-admin/includes/theme.php:258
+msgid "Flexible Header"
+msgstr "Fíraifarede Matá"
+
+#: wp-admin/includes/media.php:2705
+msgid "Sorry, you have used all of your storage quota of %s MB."
+msgstr "Mafsaái, tuñí tuáñr hálizaga'r hód %s MB beggún estemal gorifélaiyó."
+
+#: wp-admin/includes/widgets.php:225
+msgctxt "widget"
+msgid "Add"
+msgstr "Ezafágoró"
+
+#: wp-admin/includes/widgets.php:224
+msgctxt "widget"
+msgid "Edit"
+msgstr "Sóiyigoró"
+
+#: wp-admin/includes/theme-install.php:80
+msgid "Search by tag"
+msgstr "Hót or áta tua"
+
+#: wp-admin/includes/theme-install.php:77
+msgid "Search by author"
+msgstr "Lekóya'r áta tua"
+
+#: wp-admin/includes/theme-install.php:74
+#: wp-admin/includes/theme-install.php:85
+msgid "Search by keyword"
+msgstr "Dorhárilofzór áta tua"
+
+#: wp-admin/includes/theme-install.php:65
+msgid "Type of search"
+msgstr "Tuaibar kisím"
+
+#: wp-admin/includes/class-wp-screen.php:979
+msgid "Screen Options Tab"
+msgstr "Eskirín Ektiyar ókkol or Hót"
+
+#: wp-admin/includes/class-wp-screen.php:794
+msgid "Contextual Help Tab"
+msgstr "Moton Modot or Hót"
+
+#: wp-admin/menu-header.php:247
+msgid "Skip to main content"
+msgstr "Meéin hazorjiníc or ikka cúçido"
+
+#: wp-admin/admin-header.php:230
+msgid "Main content"
+msgstr "Meéin hazorjiníc"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:627
+msgid "Select comment"
+msgstr "Rai basílo"
+
+#. translators: %s: plugin name
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-links-list-table.php:172
+#: wp-admin/includes/class-wp-media-list-table.php:351
+#: wp-admin/includes/class-wp-plugins-list-table.php:729
+#: wp-admin/includes/class-wp-posts-list-table.php:835
+#: wp-admin/includes/class-wp-terms-list-table.php:339
+#: wp-admin/includes/class-wp-users-list-table.php:432
+#: wp-admin/update-core.php:299 wp-admin/update-core.php:370
+msgid "Select %s"
+msgstr "%s basílo"
+
+#: wp-admin/custom-header.php:826
+msgid "Skip Cropping, Publish Image as Is"
+msgstr "Cáçá Cúçido, Fothú Zendila Asé Baáirgoró"
+
+#: wp-admin/custom-background.php:327 wp-admin/custom-header.php:589
+msgid "Or choose an image from your media library:"
+msgstr "Yá tuánr midhia laibrittu ekkán fothú basílo:"
+
+#: wp-admin/includes/class-wp-theme-install-list-table.php:344
+#: wp-admin/theme-install.php:334
+msgid "Collapse"
+msgstr "Nisefor"
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:497
+msgctxt "plugin"
+msgid "Installed"
+msgstr "Fíthgoijjá"
+
+#: wp-admin/includes/class-wp-theme-install-list-table.php:285
+#: wp-admin/includes/class-wp-theme-install-list-table.php:408
+msgid "This theme is already installed and is up to date"
+msgstr "Tehm ibá foóila loti fíthgoijjá asé ar taza asé"
+
+#: wp-admin/includes/class-wp-theme-install-list-table.php:285
+#: wp-admin/includes/class-wp-theme-install-list-table.php:408
+#: wp-admin/theme-install.php:284
+msgctxt "theme"
+msgid "Installed"
+msgstr "Fíthgoijjá"
+
+#: wp-admin/themes.php:111
+msgid "Previewing and Customizing"
+msgstr "Agorisaár ar Háaicmozingorér"
+
+#: wp-admin/theme-install.php:108
+msgid "Previewing and Installing"
+msgstr "Agorisaár ar Fíthgorér"
+
+#. translators: %s: Theme name
+#: wp-admin/includes/class-wp-theme-install-list-table.php:293
+#: wp-admin/includes/theme.php:677
+msgid "Preview %s"
+msgstr "%s agorisoó "
+
+#: wp-admin/custom-header.php:102
+msgid "This screen is used to customize the header section of your theme."
+msgstr "Eskírin yián tuáñr tehm or matá'r sekcen oré háaic mozin goribélla estemal óiye."
+
+#: wp-admin/install.php:254 wp-admin/install.php:267
+msgid "Configuration Error"
+msgstr "Golot Tortib"
+
+#. translators: %s: edit page url
+#: wp-admin/users.php:449
+msgid "New user created. <a href=\"%s\">Edit user</a>"
+msgstr "Noya estemalgoróya bonigiyégói. <a href=\"%s\">Estemalgoróya sóiyigoró</a>"
+
+#: wp-admin/users.php:440
+msgid "User deleted."
+msgstr "%s estemal goróya ókkol haçigiyói."
+
+#: wp-admin/includes/class-core-upgrader.php:36 wp-admin/includes/file.php:669
+#: wp-admin/includes/file.php:775
+msgid "Could not copy files. You may have run out of disk space."
+msgstr "Fail ókkol kopí gorí nofare. Óitfare tuáñrtu disk ot zaga nái."
+
+#: wp-admin/includes/theme-install.php:60
+msgid "Search for themes by keyword."
+msgstr "Dorhárilofzó loi tehm ókkol tua."
+
+#: wp-admin/includes/theme-install.php:102
+msgid "Find a theme based on specific features."
+msgstr "Uggwá tehm tuailo zibá háas húbi ókkol or uore buniyad goré."
+
+#: wp-admin/theme-editor.php:192
+msgid "This theme is broken."
+msgstr "Tehm ibá báñgga."
+
+#: wp-admin/custom-background.php:330
+msgid "Set as background"
+msgstr "Fisórmonzor hísafe séthgoró"
+
+#: wp-admin/custom-header.php:593
+msgid "Set as header"
+msgstr "Matá hísafe séthgoró"
+
+#: wp-admin/includes/class-theme-upgrader-skin.php:55
+msgid "Customize &#8220;%s&#8221;"
+msgstr "Háaic mozin &#8220;%s&#8221;"
+
+#: wp-admin/link.php:104
+msgid "Edit Link"
+msgstr "Rabeta Sóiyigoró"
+
+#: wp-admin/includes/image-edit.php:70
+msgid "Scale"
+msgstr "Mafoni"
+
+#: wp-admin/includes/class-wp-theme-install-list-table.php:342
+#: wp-admin/theme-install.php:58 wp-admin/theme-install.php:332
+msgid "Collapse Sidebar"
+msgstr "Niseforede Sáidhlain"
+
+#: wp-admin/includes/class-wp-theme-install-list-table.php:423
+#: wp-admin/includes/class-wp-themes-list-table.php:236
+#: wp-admin/includes/plugin-install.php:568
+msgid "Version:"
+msgstr "Varcén:"
+
+#: wp-admin/includes/media.php:2246 wp-admin/users.php:60
+msgid "Actions"
+msgstr "Ékcen ókkol"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:386
+msgid "Plugin"
+msgstr "Modhul"
+
+#: wp-admin/export.php:173 wp-admin/export.php:184 wp-admin/export.php:207
+#: wp-admin/export.php:226 wp-admin/export.php:249
+msgid "All"
+msgstr "Beggún"
+
+#. translators: %s: Time since the last update
+#: wp-admin/includes/class-wp-media-list-table.php:449
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:559
+#: wp-admin/includes/class-wp-posts-list-table.php:988
+#: wp-admin/includes/plugin-install.php:575 wp-admin/includes/revision.php:209
+#: wp-admin/includes/revision.php:251
+msgid "%s ago"
+msgstr "%s foóila"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:300
+#: wp-admin/includes/class-wp-comments-list-table.php:574
+#: wp-admin/includes/class-wp-media-list-table.php:144
+#: wp-admin/includes/class-wp-media-list-table.php:715
+#: wp-admin/includes/class-wp-posts-list-table.php:397
+#: wp-admin/includes/class-wp-posts-list-table.php:1247
+msgid "Restore"
+msgstr "Wapesanó"
+
+#: wp-admin/about.php:28
+msgid "About"
+msgstr "Baabote"
+
+#: wp-admin/edit-comments.php:281 wp-admin/edit-comments.php:287
+msgid "Edit comment"
+msgstr "Rai sóiyigoró"
+
+#: wp-admin/edit-form-advanced.php:561
+msgid "Enter title here"
+msgstr "Yiáñt lokób dhaló"
+
+#: wp-admin/edit-link-form.php:29 wp-admin/includes/meta-boxes.php:996
+msgid "Target"
+msgstr "Moksót"
+
+#: wp-admin/includes/media.php:1227
+msgid "Link URL"
+msgstr "Rabeta'r URL"
+
+#: wp-admin/includes/media.php:1230 wp-admin/includes/media.php:2614
+msgid "Enter a link URL or click above for presets."
+msgstr "Ekkán rabeta'r URL dhaló yá agoriséthín ókkol ollá uore klikgoró."
+
+#: wp-admin/export.php:261 wp-admin/includes/media.php:2244
+#: wp-admin/menu.php:49 wp-admin/menu.php:253
+msgid "Media"
+msgstr "Midhia"
+
+#: wp-admin/includes/class-wp-list-table.php:1069
+#: wp-admin/includes/nav-menu.php:575 wp-admin/includes/nav-menu.php:774
+#: wp-admin/update-core.php:246 wp-admin/update-core.php:324
+#: wp-admin/update-core.php:356 wp-admin/update-core.php:395
+msgid "Select All"
+msgstr "Beggún Basílo"
+
+#: wp-admin/includes/plugin-install.php:283
+#: wp-admin/includes/theme-install.php:67
+msgid "Keyword"
+msgstr "Dorhárilofzó"
+
+#: wp-admin/includes/class-theme-upgrader.php:75
+msgid "This theme requires a parent theme. Checking if it is installed&#8230;"
+msgstr "Tehm ibáttu uggwá uoror tehm laibóu. Cekgorír zodi ibá fíthgoijjá aséde óile&#8230;"
+
+#. translators: 1: theme name, 2: version
+#: wp-admin/includes/class-theme-upgrader.php:77
+msgid "Preparing to install <strong>%1$s %2$s</strong>&#8230;"
+msgstr "<strong>%1$s %2$s</strong>fíth óibélla toiyar ór &#8230;"
+
+#. translators: 1: theme name, 2: version
+#: wp-admin/includes/class-theme-upgrader.php:79
+msgid "The parent theme, <strong>%1$s %2$s</strong>, is currently installed."
+msgstr "Uoror tehm, <strong>%1$s %2$s</strong>, ehón ot fíthgoijjá asé."
+
+#. translators: 1: theme name, 2: version
+#: wp-admin/includes/class-theme-upgrader.php:81
+msgid "Successfully installed the parent theme, <strong>%1$s %2$s</strong>."
+msgstr "<strong>%1$s %2$s</strong> uoror tehm kamiyabi sáñte fíthgoijjá ói giyégói."
+
+#: wp-admin/custom-header.php:118 wp-admin/custom-header.php:657
+#: wp-admin/custom-header.php:662
+msgid "Header Text"
+msgstr "Matár Leká"
+
+#: wp-admin/custom-header.php:665
+msgid "Show header text with your image."
+msgstr "Tuáñr fothúr fuáñti matár leká dahá."
+
+#: wp-admin/includes/plugin.php:179
+msgid "By %s."
+msgstr "%s or áta."
+
+#: wp-admin/includes/template.php:398
+msgid "Add new Comment"
+msgstr "Noya Rai ezafágoró"
+
+#: wp-admin/includes/template.php:428
+msgid "Add Comment"
+msgstr "Rai Ezafágoró"
+
+#: wp-admin/includes/meta-boxes.php:715
+msgid "Add comment"
+msgstr "Rai ezafágoró"
+
+#. Plugin Name of the plugin/theme
+msgid "Hello Dolly"
+msgstr "Keén asó Dolly"
+
+#. Author URI of the plugin/theme
+msgid "http://ma.tt/"
+msgstr "http://ma.tt/"
+
+#. Author of the plugin/theme
+msgid "Matt Mullenweg"
+msgstr "Matt Mullenweg"
+
+#: wp-admin/index.php:85
+msgid "<strong>Welcome</strong> &mdash; Shows links for some of the most common tasks when setting up a new site."
+msgstr "<strong>Estekbalgorázar</strong> &mdash; Ekkán noya sáith séthín goríbar woktót kessú bicí aám ham ókkol ollá rabeta ókkol dahá."
+
+#. translators: 1: month number (01, 02, etc.), 2: month abbreviation
+#: wp-admin/includes/template.php:720
+msgid "%1$s-%2$s"
+msgstr "%1$s-%2$s"
+
+#: wp-admin/install.php:110 wp-admin/install.php:315
+msgctxt "Howdy"
+msgid "Welcome"
+msgstr "Estekbal"
+
+#: wp-admin/ms-delete-site.php:23
+msgid "I'm sorry, the link you clicked is stale. Please select another option."
+msgstr "Aññí mafsaái, tuñí rabeta klikgoijjó de yián furan. Meérbanigorí arekkán ektiyar basílo."
+
+#: wp-admin/ms-delete-site.php:89
+msgid "Remember, once deleted your site cannot be restored."
+msgstr "Yadraikkó, ekbar tuáñr sáith haçi gilégói wapésaní no faríba."
+
+#: wp-admin/ms-delete-site.php:77
+msgid "Delete My Site"
+msgstr "Añár Sáith Haçifélo"
+
+#: wp-admin/ms-delete-site.php:101
+msgid "Delete My Site Permanently"
+msgstr "Añár Sáith Mústakil Haçifélo"
+
+#. translators: %s: site address
+#: wp-admin/ms-delete-site.php:97
+msgid "I'm sure I want to permanently disable my site, and I am aware I can never get it back or use %s again."
+msgstr "Aññí fakka añár sáith mústakil bongoríto saáir, ar aññí hoóifari de aññí %s oré wapes háñsil yá estemal gorí nofaríyum."
+
+#: wp-admin/includes/ms.php:406
+msgid "[%s] New Email Address"
+msgstr "[%s] Noya B-ciñçír Thíkana"
+
+#. translators: %s: New email address
+#: wp-admin/includes/ms.php:427
+msgid "Your email address has not been updated yet. Please check your inbox at %s for a confirmation email."
+msgstr "Tuáñr b-ciñçír thíkana ájjo tazagorá noóza. Meérbanigorí ekkán tosdik or b-ciñçílla tuáñr b-ciñçí'r fethi %s ot cekgoró."
+
+#: wp-admin/includes/ms.php:321
+msgid "[%s] New Admin Email Address"
+msgstr "[%s] Noya Sóoñlóya'r B-ciñçír thíkana"
+
+#: wp-admin/includes/ms.php:744
+msgid "English"
+msgstr "Ingilíc"
+
+#. translators: 1: Required disk space in kilobytes
+#: wp-admin/includes/ms.php:33
+msgid "Not enough space to upload. %1$s KB needed."
+msgstr "Uoretulíbar hálizaga kaafí nái. %1$s KB zorurot asé."
+
+#. translators: My sites label
+#: wp-admin/includes/ms.php:836
+msgid "Primary Site"
+msgstr "Buniyadi Sáith"
+
+#: wp-admin/includes/ms.php:730
+msgid "American English"
+msgstr "Amériki Ingilíc"
+
+#: wp-admin/includes/ms.php:734
+msgid "British English"
+msgstr "Bitic Ingilíc"
+
+#: wp-admin/includes/ms.php:689
+msgid "View Site"
+msgstr "Sáith Soó"
+
+#: wp-admin/includes/ms.php:522
+msgid "MB (Leave blank for network default)"
+msgstr "MB (Nethwaák asás ólla háli cúçido)"
+
+#: wp-admin/includes/ms.php:688
+msgid "Visit Dashboard"
+msgstr "Muúmorbudh Ziyarotgoró"
+
+#: wp-admin/includes/ms.php:682
+msgid "Your Sites"
+msgstr "Tuáñr Sáith Ókkol"
+
+#. translators: Megabytes
+#: wp-admin/includes/ms.php:476
+msgid "MB"
+msgstr "MB"
+
+#. translators: Gigabytes
+#: wp-admin/includes/ms.php:472
+msgid "GB"
+msgstr "GB"
+
+#: wp-admin/includes/ms-deprecated.php:33
+msgid "Sorry, you must delete files before you can upload any more."
+msgstr "Mafsaái, aró uoretulí faribélla tuáñrtu foóila hámahá fail ókkol haçiféla foribóu."
+
+#. translators: 1: Maximum allowed file size in kilobytes
+#: wp-admin/includes/ms.php:38
+msgid "This file is too big. Files must be less than %1$s KB in size."
+msgstr "Fail ibá bicí dhoóñr. Fail ókkol maf ot %1$s KB ottú hámahá cóñço oforibóu."
+
+#: wp-admin/my-sites.php:31
+msgid "The primary site you chose does not exist."
+msgstr "Buniyadi sáith tuñí basíloiyó de yián moujut nái."
+
+#: wp-admin/my-sites.php:102
+msgid "Global Settings"
+msgstr "Alomi Séthín ókkol"
+
+#: wp-admin/setup-config.php:204
+msgid "Database Host"
+msgstr "Dhethabéis or Girós"
+
+#: wp-admin/setup-config.php:148
+msgid "Database username"
+msgstr "Dhethabéis estemalgoróya'r nam"
+
+#: wp-admin/setup-config.php:212
+msgid "Table Prefix"
+msgstr "Thebíl Prifíx"
+
+#: wp-admin/setup-config.php:372 wp-admin/setup-config.php:404
+msgid "Run the install"
+msgstr "Fíthgorá sola"
+
+#: wp-admin/setup-config.php:174
+msgid "Let&#8217;s go!"
+msgstr "Zaito&#8217; do!"
+
+#: wp-admin/setup-config.php:151
+msgid "Table prefix (if you want to run more than one WordPress in a single database)"
+msgstr "Thebíl prifíx (zodi tuññí uggwá ehála dhethabéis or bútore uggwáttu bicí WordPress solaito soórde óile)"
+
+#: wp-admin/setup-config.php:200
+msgctxt "example password"
+msgid "password"
+msgstr "húfiawaádh"
+
+#: wp-admin/setup-config.php:195
+msgctxt "example username"
+msgid "username"
+msgstr "estemalgoróya'r nam"
+
+#: wp-admin/setup-config.php:189
+msgid "Database Name"
+msgstr "Dhethabéis or Nam"
+
+#: wp-admin/setup-config.php:149
+msgid "Database password"
+msgstr "Dhethabéis or húfiawaádh"
+
+#: wp-admin/setup-config.php:150
+msgid "Database host"
+msgstr "Dhethabéis or girós"
+
+#: wp-admin/setup-config.php:147
+msgid "Database name"
+msgstr "Dhethabéis or nam"
+
+#: wp-admin/setup-config.php:98
+msgid "WordPress &rsaquo; Setup Configuration File"
+msgstr "WordPress &rsaquo; Séthgorár Tortib or Fail"
+
+#: wp-admin/includes/plugin-install.php:489
+msgctxt "Plugin installer section title"
+msgid "Description"
+msgstr "Tofsil"
+
+#: wp-admin/includes/plugin-install.php:492
+msgctxt "Plugin installer section title"
+msgid "Screenshots"
+msgstr "Eskírinfothú ókkol"
+
+#: wp-admin/includes/plugin-install.php:490
+msgctxt "Plugin installer section title"
+msgid "Installation"
+msgstr "Fíthgorá"
+
+#: wp-admin/includes/plugin-install.php:495
+msgctxt "Plugin installer section title"
+msgid "Other Notes"
+msgstr "Oinno Nuth ókkol"
+
+#: wp-admin/includes/plugin-install.php:493
+msgctxt "Plugin installer section title"
+msgid "Changelog"
+msgstr "Bodola loóg"
+
+#: wp-admin/includes/plugin-install.php:491
+msgctxt "Plugin installer section title"
+msgid "FAQ"
+msgstr "EFS"
+
+#: wp-admin/options-permalink.php:133
+msgid "You should update your web.config now."
+msgstr "Tuáñrtu tuáñr web.config ehón tazagorá foribóu."
+
+#: wp-admin/includes/plugin-install.php:601
+msgid "Plugin Homepage &#187;"
+msgstr "Modhul or Górorsófa &#187;"
+
+#. translators: 1: table name, 2: error message,
+#: wp-admin/maint/repair.php:117
+msgid "Failed to repair the %1$s table. Error: %2$s"
+msgstr "Thebíl %1$s thík óite félgiyé gói. Golot: %2$s"
+
+#: wp-admin/themes.php:163
+msgid "The active theme is broken. Reverting to the default theme."
+msgstr "Salu tehm báñgga. Asási tehm or íkka wapesaiyér."
+
+#: wp-admin/user-new.php:321
+msgid "Enter the email address or username of an existing user on this network to invite them to this site. That person will be sent an email asking them to confirm the invite."
+msgstr "Sáith yián ot dawot diballá nethwaák yián ot foóila loti moujut aséde estemalgoróya'r b-ciñçí yá estemalgoróya dhaló."
+
+#: wp-admin/user-edit.php:269
+msgid "Show Toolbar when viewing site"
+msgstr "Sáith saáibor woktót Hazorfáththi Dahá"
+
+#: wp-admin/credits.php:118
+msgid "Contributing Developers"
+msgstr "Híssadede Toiyargoróya ókkol"
+
+#. translators: 1: WordPress version number, 2: plural number of bugs.
+#: wp-admin/about.php:274
+msgid "<strong>Version %1$s</strong> addressed %2$s bug."
+msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
+msgstr[0] "<strong>Varcén %1$s</strong> kessú %2$s fuk ókkol hoóiye."
+
+#. translators: 1: WordPress version number, 2: plural number of bugs. More
+#. than one security issue.
+#: wp-admin/about.php:51 wp-admin/about.php:282
+msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
+msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
+msgstr[0] "<strong>Varcén %1$s</strong> kessú héfazot or mosólla ókkol hoóiye ar %2$s fuk ókkol thíkgoijjá."
+
+#. translators: %s: Codex URL
+#: wp-admin/about.php:49 wp-admin/about.php:53 wp-admin/about.php:286
+msgid "For more information, see <a href=\"%s\">the release notes</a>."
+msgstr "Aró maalumat ollá, <a href=\"%s\">eridiya nuth ókkol</a> soó."
+
+#: wp-admin/about.php:262
+msgid "Security Release"
+msgstr "Héfazot or Eridiya ókkol"
+
+#: wp-admin/about.php:259
+msgid "Maintenance Release"
+msgstr "Thíkrakár Eridiya ókkol"
+
+#: wp-admin/about.php:265
+msgid "Maintenance and Security Release"
+msgstr "Thíkraká arde héfazot or eridiya ókkol"
+
+#: wp-admin/about.php:41 wp-admin/credits.php:28 wp-admin/freedoms.php:27
+msgid "What&#8217;s New"
+msgstr "Noya&#8217; Ki"
+
+#. translators: %s: WordPress version number
+#: wp-admin/about.php:48 wp-admin/about.php:271
+msgid "<strong>Version %s</strong> addressed some security issues."
+msgstr "<strong>Varcén %s</strong> kessú héfazot or mosólla ókkol hoóiye."
+
+#: wp-admin/about.php:245
+msgid "Return to Updates"
+msgstr "Taza Maalumat or íkka wapes aiyó"
+
+#: wp-admin/includes/update-core.php:1228 wp-admin/update-core.php:502
+msgid "Welcome to WordPress %1$s. <a href=\"%2$s\">Learn more</a>."
+msgstr "WordPress %1$s ot estekbal gorázar. <a href=\"%2$s\">Aró Cíko</a>."
+
+#: wp-admin/edit-tags.php:256
+msgid "Adding Categories"
+msgstr "Kisím ókkol Ezafágorá"
+
+#: wp-admin/edit-tags.php:256
+msgid "Adding Tags"
+msgstr "Hót ókkol Ezafágorá"
+
+#: wp-admin/edit-comments.php:169
+msgid "Moderating Comments"
+msgstr "Rai ókkol Fáiselagorér"
+
+#: wp-admin/user-new.php:200
+msgid "User Roles"
+msgstr "Estemalgoróya'r rul ókkol"
+
+#: wp-admin/plugin-install.php:88
+msgid "Adding Plugins"
+msgstr "Modhul ókkol Ezafágorá"
+
+#: wp-admin/edit.php:196
+msgid "Screen Content"
+msgstr "Eskírin or Hazorjiníc"
+
+#: wp-admin/themes.php:97
+msgid "Adding Themes"
+msgstr "Tehm ókkol ezafágorá"
+
+#: wp-admin/update-core.php:569
+msgid "How to Update"
+msgstr "Kengóri Tazagoribá"
+
+#: wp-admin/edit.php:208 wp-admin/upload.php:197
+msgid "Available Actions"
+msgstr "Moujut aséde Ékcen ókkol"
+
+#: wp-admin/users.php:38
+msgid "Screen Display"
+msgstr "Eskírin Dahá"
+
+#: wp-admin/upload.php:203
+msgid "Attaching Files"
+msgstr "Fail ókkol Laga"
+
+#: wp-admin/options-permalink.php:178
+msgid "Common Settings"
+msgstr "Aám Séthín ókkol"
+
+#: wp-admin/options-permalink.php:37
+msgid "Custom Structures"
+msgstr "Háaicmozin Hák"
+
+#: wp-admin/options-writing.php:29
+msgid "Post Via Email"
+msgstr "B-ciñçír zoriya poigam do"
+
+#: wp-admin/widgets.php:97
+msgid "Inactive Sidebar (not used)"
+msgstr "Bongoijjá Sáidhlain (estemal ot nái)"
+
+#: wp-admin/widgets.php:60
+msgid "Removing and Reusing"
+msgstr "Larifélar ar Abbar estemalgorér"
+
+#: wp-admin/widgets.php:68
+msgid "Missing Widgets"
+msgstr "Nái de Wíjeth ókkol"
+
+#: wp-admin/link-manager.php:59
+msgid "Deleting Links"
+msgstr "Rabeta ókkol Haçiféla"
+
+#: wp-admin/update-core.php:213
+msgid "<a href=\"%s\">Learn more about WordPress %s</a>."
+msgstr "<a href=\"%s\">WordPress %s or baabote aró cíko</a>."
+
+#: wp-admin/edit.php:241
+msgid "Managing Pages"
+msgstr "Sófa ókkol Sóoñlá"
+
+#: wp-admin/credits.php:21 wp-admin/freedoms.php:20
+msgid "Welcome to WordPress %s"
+msgstr "WordPress %s ot Estekbal gorázar"
+
+#: wp-admin/about.php:248
+msgid "Go to Dashboard &rarr; Home"
+msgstr "Muúmorbuth or íkka za &rarr; Gór"
+
+#: wp-admin/includes/dashboard.php:1459 wp-admin/includes/dashboard.php:1461
+msgid "Customize Your Site"
+msgstr "Tuáñr Sáith oré Háaicmozin goró"
+
+#: wp-admin/user-edit.php:180
+msgid "Profile updated."
+msgstr "Profail taza ói giyégói."
+
+#. translators: 1: Site name, 2: site URL, 3: role, 4: activation URL
+#: wp-admin/user-new.php:93
+msgid ""
+"Hi,\n"
+"\n"
+"You've been invited to join '%1$s' at\n"
+"%2$s with the role of %3$s.\n"
+"\n"
+"Please click the following link to confirm the invite:\n"
+"%4$s"
+msgstr ""
+"Keén Asó,\n"
+"\n"
+"Tuáñre '%1$s' oré juáin goríballá\n"
+"%2$s ót %3$s rul or fúañti dawot diya giyé.\n"
+"\n"
+"Meérbanigorí dawot oré fakkahoíballá nise diyé de rabeta re sibo:\n"
+"%4$s"
+
+#: wp-admin/credits.php:124
+msgid "Core Developer"
+msgstr "Buniyadi Toiyargoróya"
+
+#: wp-admin/menu.php:63
+msgctxt "admin menu"
+msgid "All Links"
+msgstr "Beggún Rabeta ókkol"
+
+#: wp-admin/includes/media.php:1926
+msgid "Drop files here"
+msgstr "Yiáñt fail ókkol erido"
+
+#: wp-admin/includes/plugin-install.php:263
+msgid "%s plugins"
+msgstr "%s modhul ókkol"
+
+#: wp-admin/includes/plugin-install.php:263
+msgid "%s plugin"
+msgstr "%s modhul"
+
+#. translators: %s: table name
+#: wp-admin/maint/repair.php:136
+msgid "Successfully optimized the %s table."
+msgstr "%s thebíl kamiyabi sáñte behétor ói giyégói."
+
+#. translators: %s: table name
+#: wp-admin/maint/repair.php:104
+msgid "The %s table is okay."
+msgstr "%s thebíl thík asé."
+
+#. translators: %s: table name
+#: wp-admin/maint/repair.php:129
+msgid "The %s table is already optimized."
+msgstr "%s thebíl foóila loti behétorgoijjá asé."
+
+#: wp-admin/options.php:160
+msgid "<strong>ERROR</strong>: options page not found."
+msgstr "<strong>GOLOT</strong>: ektiyar ókkol or sófa noófa."
+
+#: wp-admin/includes/ajax-actions.php:1030
+#: wp-admin/includes/ajax-actions.php:1115
+msgid "ERROR: please type a comment."
+msgstr "GOLOT: meérbanigorí ekkán rai lekó"
+
+#: wp-admin/comment.php:43 wp-admin/custom-background.php:90
+#: wp-admin/custom-header.php:100 wp-admin/edit-comments.php:163
+#: wp-admin/edit-form-advanced.php:404 wp-admin/edit-link-form.php:56
+#: wp-admin/edit-tags.php:231 wp-admin/edit.php:190 wp-admin/edit.php:235
+#: wp-admin/export.php:47 wp-admin/import.php:22
+#: wp-admin/includes/class-wp-screen.php:779 wp-admin/index.php:40
+#: wp-admin/link-manager.php:51 wp-admin/media-new.php:45 wp-admin/media.php:73
+#: wp-admin/my-sites.php:40 wp-admin/nav-menus.php:529
+#: wp-admin/nav-menus.php:564 wp-admin/options-discussion.php:21
+#: wp-admin/options-general.php:39 wp-admin/options-media.php:28
+#: wp-admin/options-permalink.php:20 wp-admin/options-reading.php:22
+#: wp-admin/options-writing.php:20 wp-admin/plugin-editor.php:143
+#: wp-admin/plugin-install.php:80 wp-admin/plugins.php:385
+#: wp-admin/revision.php:115 wp-admin/theme-editor.php:25
+#: wp-admin/theme-install.php:98 wp-admin/themes.php:82
+#: wp-admin/update-core.php:556 wp-admin/upload.php:48 wp-admin/upload.php:189
+#: wp-admin/user-edit.php:49 wp-admin/user-new.php:194 wp-admin/users.php:31
+#: wp-admin/widgets.php:53
+msgid "Overview"
+msgstr "Uortúsoó"
+
+#: wp-admin/user-new.php:282 wp-admin/user-new.php:315
+#: wp-admin/user-new.php:373
+msgid "Add Existing User"
+msgstr "Moujutasé de Estemalgoróya Ezafágoró"
+
+#: wp-admin/includes/class-wp-theme-install-list-table.php:412
+#: wp-admin/includes/dashboard.php:1263 wp-admin/theme-install.php:278
+#: wp-admin/theme-install.php:297
+msgid "Install"
+msgstr "Fíthgoró"
+
+#: wp-admin/users.php:468
+msgid "User removed from this site."
+msgstr "Estemalgoróya sáith yián óttu lariféla giyé."
+
+#: wp-admin/includes/class-wp-links-list-table.php:84
+#: wp-admin/includes/class-wp-links-list-table.php:330
+#: wp-admin/includes/class-wp-plugins-list-table.php:468
+#: wp-admin/includes/class-wp-plugins-list-table.php:613
+#: wp-admin/includes/class-wp-plugins-list-table.php:634
+#: wp-admin/includes/class-wp-terms-list-table.php:156
+#: wp-admin/includes/class-wp-terms-list-table.php:458
+#: wp-admin/includes/class-wp-themes-list-table.php:198
+#: wp-admin/includes/class-wp-users-list-table.php:244
+#: wp-admin/includes/class-wp-users-list-table.php:412
+#: wp-admin/includes/media.php:1501 wp-admin/includes/meta-boxes.php:916
+#: wp-admin/includes/template.php:561 wp-admin/includes/widgets.php:253
+#: wp-admin/themes.php:340 wp-admin/themes.php:486 wp-admin/widgets.php:320
+msgid "Delete"
+msgstr "Haçifélo"
+
+#: wp-admin/menu.php:221
+msgid "All Users"
+msgstr "Beggún Estemalgoróya ókkol"
+
+#: wp-admin/includes/class-wp-users-list-table.php:321
+#: wp-admin/user-edit.php:343 wp-admin/user-new.php:343
+#: wp-admin/user-new.php:475
+msgid "Role"
+msgstr "Rul"
+
+#: wp-admin/comment.php:50 wp-admin/custom-background.php:99
+#: wp-admin/custom-header.php:126 wp-admin/edit-comments.php:180
+#: wp-admin/edit-form-advanced.php:381 wp-admin/edit-form-advanced.php:396
+#: wp-admin/edit-form-advanced.php:413 wp-admin/edit-link-form.php:64
+#: wp-admin/edit-tags.php:261 wp-admin/edit.php:227 wp-admin/edit.php:248
+#: wp-admin/export.php:53 wp-admin/import.php:28 wp-admin/index.php:96
+#: wp-admin/link-manager.php:65 wp-admin/media-new.php:55 wp-admin/media.php:82
+#: wp-admin/my-sites.php:46 wp-admin/nav-menus.php:570
+#: wp-admin/options-discussion.php:27 wp-admin/options-general.php:44
+#: wp-admin/options-media.php:33 wp-admin/options-permalink.php:43
+#: wp-admin/options-reading.php:37 wp-admin/options-writing.php:44
+#: wp-admin/plugin-editor.php:154 wp-admin/plugin-install.php:97
+#: wp-admin/plugins.php:408 wp-admin/revision.php:119
+#: wp-admin/theme-editor.php:38 wp-admin/theme-install.php:113
+#: wp-admin/themes.php:117 wp-admin/tools.php:27 wp-admin/update-core.php:574
+#: wp-admin/upload.php:65 wp-admin/upload.php:209 wp-admin/user-edit.php:54
+#: wp-admin/user-new.php:212 wp-admin/users.php:66 wp-admin/widgets.php:75
+msgid "For more information:"
+msgstr "Aró maalumat ólla:"
+
+#: wp-admin/menu.php:223 wp-admin/menu.php:225 wp-admin/user-edit.php:206
+#: wp-admin/users.php:498
+msgctxt "user"
+msgid "Add New"
+msgstr "Noya Ezafágoró"
+
+#: wp-admin/includes/dashboard.php:431 wp-admin/includes/dashboard.php:433
+#: wp-admin/users.php:514
+msgid "Search Users"
+msgstr "Estemalgoróya Tua"
+
+#: wp-admin/menu.php:204
+msgid "Installed Plugins"
+msgstr "Fíthgoijjá Modhul ókkol"
+
+#: wp-admin/menu.php:209
+msgctxt "plugin editor"
+msgid "Editor"
+msgstr "Edhithar"
+
+#: wp-admin/menu.php:233 wp-admin/menu.php:235 wp-admin/user-new.php:172
+#: wp-admin/user-new.php:280 wp-admin/user-new.php:380
+#: wp-admin/user-new.php:501
+msgid "Add New User"
+msgstr "Noya Estemalgoróya Ezafágoró"
+
+#: wp-admin/comment.php:149 wp-admin/plugins.php:290 wp-admin/plugins.php:296
+#: wp-admin/theme-editor.php:272
+msgid "Caution:"
+msgstr "Etiyat:"
+
+#: wp-admin/user-new.php:273
+msgid "User added."
+msgstr "Estemalgoró ezafá óiye."
+
+#: wp-admin/users.php:457
+msgid "Changed roles."
+msgstr "Rul ókkol bodoligiyói."
+
+#: wp-admin/users.php:309 wp-admin/users.php:344
+msgid "You can&#8217;t remove users."
+msgstr "Tuñí estemalgoróya ókkol lari nofariba."
+
+#: wp-admin/options-general.php:330
+msgid "Site Language"
+msgstr "Sáith or Zuban"
+
+#: wp-admin/options-general.php:81 wp-admin/options-general.php:100
+msgid "Email Address"
+msgstr "B-ciñçír Thíkana"
+
+#: wp-admin/includes/class-wp-press-this.php:841
+#: wp-admin/includes/meta-boxes.php:385 wp-admin/includes/theme.php:263
+msgid "Post Formats"
+msgstr "Poigam or Cokól ókkol"
+
+#: wp-admin/includes/theme.php:257
+msgid "Featured Images"
+msgstr "Húbiwala Fothú ókkol"
+
+#: wp-admin/includes/theme.php:261
+msgid "Full Width Template"
+msgstr "Fuúl Fatári Nomuna"
+
+#: wp-admin/includes/theme.php:256
+msgid "Featured Image Header"
+msgstr "Húbiwala Fothú ókkol or Matá"
+
+#: wp-admin/edit-tag-form.php:120 wp-admin/edit-tags.php:386
+#: wp-admin/includes/class-wp-terms-list-table.php:180
+#: wp-admin/includes/class-wp-terms-list-table.php:595
+msgctxt "term name"
+msgid "Name"
+msgstr "Nam"
+
+#: wp-admin/includes/template.php:488 wp-admin/includes/template.php:503
+#: wp-admin/includes/template.php:628
+msgctxt "meta name"
+msgid "Name"
+msgstr "Nam"
+
+#: wp-admin/themes.php:318
+msgctxt "theme name"
+msgid "Name"
+msgstr "Nam"
+
+#: wp-admin/update-core.php:61
+msgid "Re-install Now"
+msgstr "Ehón Abbar fíthgoró"
+
+#: wp-admin/credits.php:125
+msgid "External Libraries"
+msgstr "Baáror Laibri ókkol"
+
+#: wp-admin/menu.php:240
+msgid "Available Tools"
+msgstr "Moujutasé de Hamor sáman"
+
+#: wp-admin/menu.php:246
+msgid "Network Setup"
+msgstr "Nethwaák Séthgoró"
+
+#: wp-admin/credits.php:117
+msgid "Core Contributors to WordPress %s"
+msgstr "WordPress %s ot buniyadi Híssadoya ókkol"
+
+#: wp-admin/menu.php:86
+msgid "All Comments"
+msgstr "Beggún Rai ókkol"
+
+#: wp-admin/credits.php:116
+msgid "Project Leaders"
+msgstr "Monsuba'r Boro ókkol"
+
+#: wp-admin/widgets.php:388
+msgctxt "removing-widget"
+msgid "Deactivate"
+msgstr "Bongoró"
+
+#: wp-admin/about.php:43 wp-admin/credits.php:30 wp-admin/freedoms.php:12
+#: wp-admin/freedoms.php:29
+msgid "Freedoms"
+msgstr "Azadi ókkol"
+
+#: wp-admin/users.php:240
+msgid "You have specified this user for deletion:"
+msgstr "Tuñí estemalgoróya ibá ré haçifélai bélla waazé goijjó:"
+
+#: wp-admin/user-edit.php:185
+msgid "&larr; Back to Users"
+msgstr "&larr; Estemal Goróya'r Íkka Wapes zoo"
+
+#: wp-admin/options-writing.php:83
+msgid "Default Post Format"
+msgstr "Asási Poigam or Cokól"
+
+#: wp-admin/user-edit.php:208 wp-admin/users.php:500
+msgctxt "user"
+msgid "Add Existing"
+msgstr "Foóila Loti Aséde Hiín Ezafágoró"
+
+#: wp-admin/includes/upgrade.php:239
+msgid "Sample Page"
+msgstr "Mesál Sófa"
+
+#: wp-admin/user-edit.php:368
+msgid "Super admin privileges cannot be removed because this user has the network admin email."
+msgstr "Afzól entezam or mouka ókkol larifélai nofaribou kiyóllahoilé estemalgoróya ibáttu nethwaák entezam goréde b-biñçí asé."
+
+#: wp-admin/theme-editor.php:212
+msgid "This child theme inherits templates from a parent theme, %s."
+msgstr "Baicca tehm ibá yé, uoror tehm %s óttu nomuna ókkol miras lo."
+
+#: wp-admin/theme-editor.php:273
+msgid "This is a file in your current parent theme."
+msgstr "Tuáñr ehón or uoror tehm or bútore ibá uggwá fail."
+
+#: wp-admin/upgrade.php:64
+msgid "WordPress &rsaquo; Update"
+msgstr "WordPress &rsaquo; Tazagor"
+
+#: wp-admin/upgrade.php:75
+msgid "No Update Required"
+msgstr "Honó Tazagorár Zorurot Nái"
+
+#: wp-admin/upgrade.php:96
+msgid "Database Update Required"
+msgstr "Dhethabéis Tazagorár Zorurot Asé"
+
+#: wp-admin/upgrade.php:99
+msgid "Update WordPress Database"
+msgstr "WordPress or Dhethabéis Tazagoró"
+
+#: wp-admin/upgrade.php:109
+msgid "Update Complete"
+msgstr "Tazagorá Mukómmol Óiye"
+
+#: wp-admin/upgrade.php:110
+msgid "Your WordPress database has been successfully updated!"
+msgstr "Tuáñr WordPress or dhethabéis kamiyabi sáñte taza ói giyégói!"
+
+#: wp-admin/export.php:177 wp-admin/export.php:219
+msgid "Authors:"
+msgstr "Lekóya ókkol:"
+
+#: wp-admin/export.php:166
+msgid "All content"
+msgstr "Beggún hazorjiníc"
+
+#: wp-admin/user-new.php:322
+msgid "Email or Username"
+msgstr "B-ciñçí yá Estemalgoróya'r nam"
+
+#: wp-admin/themes.php:139
+msgid "Search Installed Themes"
+msgstr "Fíthgoijjá Tehm ókkol Tua"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:366
+msgctxt "posts"
+msgid "Sticky <span class=\"count\">(%s)</span>"
+msgid_plural "Sticky <span class=\"count\">(%s)</span>"
+msgstr[0] "Lagaiya <span class=\"count\">(%s)</span>"
+
+#: wp-admin/update-core.php:592
+msgid "Please select one or more themes to update."
+msgstr "Meérbanigorí tazagorí bélla uggwá yá bicí tehm ókkol basílo."
+
+#: wp-admin/update-core.php:594
+msgid "Please select one or more plugins to update."
+msgstr "Meérbanigorí tazagorí bélla uggwá yá bicí modhul ókkol basílo."
+
+#: wp-admin/update-core.php:608
+msgid "Check Again"
+msgstr "Abbar Cekgoró"
+
+#. translators: %1 date, %2 time.
+#: wp-admin/update-core.php:607
+msgid "Last checked on %1$s at %2$s."
+msgstr "Ahéribar %1$s or uore %2$s ot cekgoijjé."
+
+#: wp-admin/theme-install.php:187 wp-admin/theme-install.php:207
+msgid "Apply Filters"
+msgstr "Saloin ókkol Fíthgoró"
+
+#: wp-admin/includes/theme.php:268
+msgid "Translation Ready"
+msgstr "Torjuma Toiyar"
+
+#: wp-admin/includes/theme.php:260
+msgid "Front Page Posting"
+msgstr "Muúmor Sófa'r Poigam"
+
+#: wp-admin/includes/theme.php:249
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+#. translators: 1: Text indicating the number of sites on the network, 2: Text
+#. indicating the number of users on the network
+#: wp-admin/includes/dashboard.php:401
+msgid "You have %1$s and %2$s."
+msgstr "Tuáñrtu %1$s arde %2$s asé."
+
+#. translators: 1: Number of sites on the network
+#: wp-admin/includes/dashboard.php:398
+msgid "%s site"
+msgid_plural "%s sites"
+msgstr[0] "%s sáith ókkol"
+
+#. translators: 1: Number of users on the network
+#: wp-admin/includes/dashboard.php:396
+msgid "%s user"
+msgid_plural "%s users"
+msgstr[0] "%s estemalgoróya ókkol"
+
+#: wp-admin/includes/dashboard.php:390
+msgid "Create a New User"
+msgstr "Uggwá Noya Estemalgoróya Toiyargoró"
+
+#: wp-admin/includes/dashboard.php:439 wp-admin/includes/dashboard.php:441
+msgid "Search Sites"
+msgstr "Sáith ókkol Tua"
+
+#: wp-admin/includes/dashboard.php:1297
+msgid "Storage Space"
+msgstr "Gudam or Hálizaga"
+
+#: wp-admin/includes/dashboard.php:388
+msgid "Create a New Site"
+msgstr "Ekkán Noya Sáith Toiyargoró"
+
+#: wp-admin/includes/file.php:1194
+msgid "FTP/SSH Username"
+msgstr "FTP/SSH FTP Estemalgoróya'r nam"
+
+#: wp-admin/includes/file.php:1198
+msgid "FTP Username"
+msgstr "FTP Estemalgoróya'r nam"
+
+#: wp-admin/includes/file.php:1195
+msgid "FTP/SSH Password"
+msgstr "FTP/SSH Húfiawaádh"
+
+#: wp-admin/includes/file.php:1199
+msgid "FTP Password"
+msgstr "FTP Húfiawaádh"
+
+#: wp-admin/update-core.php:165
+msgid "You have the latest version of WordPress."
+msgstr "Tuáñrtu WordPress or taza varcén asé."
+
+#: wp-admin/update-core.php:226
+msgid "Your plugins are all up to date."
+msgstr "Tuáñr modhul ókkol beggún taza asé."
+
+#: wp-admin/update-core.php:340
+msgid "Your themes are all up to date."
+msgstr "Tuáñr tehm ókkol beggún taza asé."
+
+#: wp-admin/update-core.php:187
+msgid "An updated version of WordPress is available."
+msgstr "Uggwá WordPress or taza goijjá varcén moujut asé."
+
+#: wp-admin/plugin-editor.php:171 wp-admin/theme-editor.php:145
+msgid "Function Name&hellip;"
+msgstr "Fangcen or Nam&hellip;"
+
+#: wp-admin/includes/meta-boxes.php:805
+msgid "(no parent)"
+msgstr "(honó uor nái)"
+
+#: wp-admin/includes/class-bulk-upgrader-skin.php:47
+msgid "All updates have been completed."
+msgstr "Beggún taza goribar maalumat ókkol mukómmol ói giyégói."
+
+#: wp-admin/edit-tags.php:242
+msgid "<strong>Name</strong> &mdash; The name is how it appears on your site."
+msgstr "<strong>Nam</strong> &mdash; Nam zendila tuáñr sáith ot daházar."
+
+#: wp-admin/custom-header.php:637
+msgid "Remove Header Image"
+msgstr "Matár Fothú Larifélo"
+
+#: wp-admin/custom-header.php:645
+msgid "Reset Image"
+msgstr "Fothú Abbar séthgoró"
+
+#: wp-admin/custom-header.php:648
+msgid "Restore Original Header Image"
+msgstr "Asóli Matár Fothú Wapesanó"
+
+#: wp-admin/custom-header.php:619
+msgid "Default Images"
+msgstr "Asási Fothú ókkol"
+
+#: wp-admin/custom-header.php:801
+msgid "Crop Header Image"
+msgstr "Matár Fothú Cáçó"
+
+#: wp-admin/includes/meta-boxes.php:671
+msgid "Allow comments."
+msgstr "Rai ókkol ejazot asé."
+
+#: wp-admin/includes/class-bulk-plugin-upgrader-skin.php:50
+#: wp-admin/includes/class-bulk-theme-upgrader-skin.php:50
+#: wp-admin/includes/class-language-pack-upgrader-skin.php:73
+msgid "Return to WordPress Updates page"
+msgstr "WordPress or Taza Maalumat or Sófa'r íkka Wapes Aiyó"
+
+#: wp-admin/plugins.php:526
+msgid "Search Installed Plugins"
+msgstr "Fíthgoijjá Modhul ókkol Tua"
+
+#: wp-admin/includes/import.php:170 wp-admin/tools.php:21
+#: wp-admin/tools.php:103
+msgid "Categories and Tags Converter"
+msgstr "Kisím arde Hót ókkol Bodolóya"
+
+#: wp-admin/includes/nav-menu.php:398
+msgid "Most Recent"
+msgstr "Ebbre Ehón or"
+
+#: wp-admin/export.php:192 wp-admin/export.php:234 wp-admin/export.php:266
+msgid "Start date:"
+msgstr "Cúrur Tarík:"
+
+#: wp-admin/includes/plugin-install.php:285
+msgctxt "Plugin Installer"
+msgid "Tag"
+msgstr "Hót"
+
+#: wp-admin/includes/theme-install.php:69
+msgctxt "Theme Installer"
+msgid "Tag"
+msgstr "Hót"
+
+#: wp-admin/theme-editor.php:222
+msgctxt "Theme stylesheets in theme editor"
+msgid "Styles"
+msgstr "Ecthail ókkol"
+
+#: wp-admin/includes/media.php:2237
+msgctxt "verb"
+msgid "Clear"
+msgstr "Sáf"
+
+#: wp-admin/comment.php:115
+#: wp-admin/includes/class-wp-comments-list-table.php:297
+msgctxt "comment"
+msgid "Mark as Spam"
+msgstr "Fozúl hísafe Maákgoró"
+
+#: wp-admin/custom-background.php:294
+msgid "Remove Background Image"
+msgstr "Fisórmonzor or Fothú Larifélo"
+
+#. translators: %s: post title
+#. translators: %s: link to post
+#: wp-admin/edit-comments.php:143 wp-admin/edit-comments.php:200
+msgid "Comments on &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221 or uore rai ókkol;"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:302
+#: wp-admin/includes/class-wp-comments-list-table.php:570
+msgctxt "comment"
+msgid "Not Spam"
+msgstr "Fozúl Nói"
+
+#: wp-admin/includes/dashboard.php:1106
+msgid "WordPress Blog"
+msgstr "WordPress Bologsáith"
+
+#: wp-admin/users.php:366
+msgid "Remove Users from Site"
+msgstr "Sáith óttu Estemalgoróya ókkol larifélo"
+
+#: wp-admin/user-edit.php:355 wp-admin/user-edit.php:357
+msgid "&mdash; No role for this site &mdash;"
+msgstr "&mdash; Sáith yián ólla honó rul nái &mdash;"
+
+#: wp-admin/includes/nav-menu.php:345 wp-admin/includes/nav-menu.php:630
+msgid "No items."
+msgstr "Cis ókkol nái."
+
+#: wp-admin/nav-menus.php:245
+msgid "The menu item has been successfully deleted."
+msgstr "Mínu'r cis kamiyabi sáñte haçi giyégói."
+
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:235
+#: wp-admin/includes/class-wp-theme-install-list-table.php:145
+#: wp-admin/setup-config.php:247
+msgid "Try again"
+msgstr "Abbar kucícgoró"
+
+#: wp-admin/includes/ajax-actions.php:1288
+msgid "Please provide a custom field name."
+msgstr "Meérbanigorí ekkán háaicmozin zaga'r nam do."
+
+#: wp-admin/users.php:396
+msgid "Confirm Removal"
+msgstr "Lara Tosdikgoró"
+
+#: wp-admin/users.php:371
+msgid "You have specified these users for removal:"
+msgstr "Tuñí estemalgoróya iín oré larifélai bélla waazé goijjó:"
+
+#: wp-admin/users.php:398
+msgid "There are no valid users selected for removal."
+msgstr "Eçé larifélai bélla honó sóiye estemalgoróya ókkol basíloiyá nái."
+
+#: wp-admin/users.php:148 wp-admin/users.php:197
+msgid "User deletion is not allowed from this screen."
+msgstr "Eskírin yián óttu estemalgoróya ókkol haçibar ejazot nái."
+
+#: wp-admin/users.php:471
+msgid "You can't remove the current user."
+msgstr "Tuñí ehón or estemalgoróya ré lari no fariba."
+
+#: wp-admin/users.php:472
+msgid "Other users have been removed."
+msgstr "Oinno estemalgoróya ókkol lori giyégói."
+
+#: wp-admin/includes/class-bulk-upgrader-skin.php:46
+msgid "Hide Details"
+msgstr "Tofsil ókkol Luwa"
+
+#: wp-admin/includes/class-bulk-upgrader-skin.php:46
+msgid "Show Details"
+msgstr "Tofsil ókkol Dahá"
+
+#: wp-admin/includes/user.php:481
+msgid "No thanks, do not remind me again"
+msgstr "Nói cúkuria, abbar añáre yiad no goráiyó"
+
+#: wp-admin/includes/user.php:480
+msgid "Yes, take me to my profile page"
+msgstr "Ói, añáre añár profail or sófa't loiza"
+
+#: wp-admin/includes/upgrade.php:83
+msgid "Your chosen password."
+msgstr "Tuáñr basíloiyá húfiawaádh."
+
+#: wp-admin/user-new.php:255
+msgid "User has been added to your site."
+msgstr "Estemalgoró tuáñr sáith ot ezafá ói giyé gói."
+
+#: wp-admin/user-new.php:262
+msgid "That user is already a member of this site."
+msgstr "Estemalgoró íba foóila lóti sáith yián or uggwá membór."
+
+#: wp-admin/user-edit.php:366
+msgid "Grant this user super admin privileges for the Network."
+msgstr "Estemalgoróya ibá ré nethwaák yián ollá afzól entezam or mouka ókkol boccírgoró."
+
+#: wp-admin/user-edit.php:339
+msgid "Usernames cannot be changed."
+msgstr "Estemalgoróya'r nam bodoli no faribóu."
+
+#: wp-admin/includes/template.php:1261
+msgid "The miscellaneous options group has been removed. Use another settings group."
+msgstr "Beckisím or ektiyar ókkol or gurúp larifélagiyé. Aruggwá séthín ókkol or gurúp estemal goró."
+
+#: wp-admin/update-core.php:460
+msgid "Update WordPress"
+msgstr "WordPress Tazagoró"
+
+#: wp-admin/update-core.php:548 wp-admin/update-core.php:587
+msgid "WordPress Updates"
+msgstr "WordPress Tazagorá ókkol"
+
+#: wp-admin/includes/class-wp-plugins-list-table.php:426
+msgid "Must-Use <span class=\"count\">(%s)</span>"
+msgid_plural "Must-Use <span class=\"count\">(%s)</span>"
+msgstr[0] "Hámahá-Estemal <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-themes-list-table.php:197
+msgid ""
+"You are about to delete this theme '%s'\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Tuñí tehm ibá '%s' haçífélor.\n"
+"No haçíbélla 'Kensel' ar haçíbélla 'Oke' goró."
+
+#: wp-admin/ms-delete-site.php:13 wp-admin/my-sites.php:13
+msgid "Multisite support is not enabled."
+msgstr "Bicísáith or hémayot kabelgoijjá nái."
+
+#: wp-admin/user-new.php:100
+msgid "[%s] Joining confirmation"
+msgstr "[%s] juáin óibar tosdik"
+
+#: wp-admin/includes/theme.php:266
+msgid "Theme Options"
+msgstr "Tehm'r Ektiyar ókkol"
+
+#: wp-admin/user-edit.php:374 wp-admin/user-new.php:414
+msgid "First Name"
+msgstr "Foóila Nam"
+
+#: wp-admin/user-edit.php:379 wp-admin/user-new.php:418
+msgid "Last Name"
+msgstr "Ahéri Nam"
+
+#: wp-admin/user-edit.php:384
+msgid "Nickname"
+msgstr "Dhaknam"
+
+#: wp-admin/user-edit.php:389
+msgid "Display name publicly as"
+msgstr "Nam aámfaám hísafe dahá"
+
+#: wp-admin/user-edit.php:425
+msgid "Contact Info"
+msgstr "Konték or Maalumat"
+
+#: wp-admin/user-edit.php:229
+msgid "Personal Options"
+msgstr "Zati Ektiyar Ókkol"
+
+#: wp-admin/user-edit.php:234
+msgid "Visual Editor"
+msgstr "Saíbar Edhithar"
+
+#: wp-admin/user-edit.php:235
+msgid "Disable the visual editor when writing"
+msgstr "Lekíbar woktót saíbar edhithar na kabel goró"
+
+#: wp-admin/user-edit.php:483
+msgid "About Yourself"
+msgstr "Tuánr Baabote"
+
+#: wp-admin/user-edit.php:483
+msgid "About the user"
+msgstr "Estemal goróya'r baabote"
+
+#: wp-admin/user-edit.php:487
+msgid "Biographical Info"
+msgstr "Baabote Maalumat"
+
+#: wp-admin/user-edit.php:540
+msgid "New Password"
+msgstr "Noya Húfiawaádh"
+
+#: wp-admin/user-edit.php:563
+msgid "Type your new password again."
+msgstr "Tuáñr noya húfiawaádh abbar lekó."
+
+#: wp-admin/user-edit.php:679
+msgid "Update Profile"
+msgstr "Profail Tazagoró"
+
+#: wp-admin/user-edit.php:655
+msgid "Additional Capabilities"
+msgstr "Aró Kabiliát Ókkol"
+
+#: wp-admin/user-edit.php:679
+msgid "Update User"
+msgstr "Estemalgoróya Tazagoró"
+
+#: wp-admin/user-new.php:351 wp-admin/user-new.php:487
+msgid "Skip Confirmation Email"
+msgstr "B-ciñçír Tosdik Cúçido"
+
+#: wp-admin/users.php:453
+msgid "New user created."
+msgstr "Noya estemalgoróya bonigiyégói."
+
+#: wp-admin/widgets.php:271
+msgid "Widget %s"
+msgstr "Wíjeth %s"
+
+#: wp-admin/widgets.php:322
+msgid "Save Widget"
+msgstr "Wíjeth Bórieró"
+
+#: wp-admin/widgets.php:388
+msgid "Available Widgets"
+msgstr "Moujut Aséde Wíjeth Ókkol"
+
+#: wp-admin/widgets.php:114
+msgid "Inactive Widgets"
+msgstr "Bongoijjá Wíjeth Ókkol"
+
+#: wp-admin/theme-editor.php:173
+msgid "Select theme to edit:"
+msgstr "Sóiyi gorí bélla tehm basílo:"
+
+#: wp-admin/theme-editor.php:210
+msgid "Templates"
+msgstr "Nomuna ókkol"
+
+#: wp-admin/themes.php:171
+msgid "Theme deleted."
+msgstr "Tehm haçigiyói."
+
+#: wp-admin/themes.php:309
+msgid "Broken Themes"
+msgstr "Báñgga Tehm Ókkol"
+
+#: wp-admin/update-core.php:105
+msgid "Hide this update"
+msgstr "Tazagorá yián luwa"
+
+#: wp-admin/update-core.php:107
+msgid "Bring back this update"
+msgstr "Tazagorá yián wapes anó"
+
+#: wp-admin/update-core.php:126 wp-admin/update-core.php:138
+msgid "Show hidden updates"
+msgstr "Luwaiya tazagorá ókkol dahá"
+
+#: wp-admin/update-core.php:127
+msgid "Hide hidden updates"
+msgstr "Luwaiya tazagorá ókkol luwa"
+
+#: wp-admin/update-core.php:351 wp-admin/update-core.php:399
+#: wp-admin/update-core.php:714 wp-admin/update-core.php:719
+msgid "Update Themes"
+msgstr "Tehm Ókkol Tazagoró"
+
+#: wp-admin/includes/user.php:516
+msgid "Use https"
+msgstr "https estemalgoró"
+
+#: wp-admin/includes/user.php:517
+msgid "Always use https when visiting the admin"
+msgstr "Hámicá https estemalgoró zeñtte entezam oré ziyarotgoró"
+
+#: wp-admin/user-edit.php:489
+msgid "Share a little biographical information to fill out your profile. This may be shown publicly."
+msgstr "Tuáñr profail bóri bélla ekkán gura bayugrafi'r maalumat cíyargoró. Yián óitfare aámfaám dahá zaibou."
+
+#: wp-admin/users.php:232
+msgid "Delete Users"
+msgstr "Estemalgoróya ókkol Haçifélo"
+
+#: wp-admin/users.php:297
+msgid "There are no valid users selected for deletion."
+msgstr "Eçé haçifélai bélla honó sóiye estemalgoróya ókkol basíloiyá nái:"
+
+#: wp-admin/users.php:464
+msgid "You can&#8217;t delete the current user."
+msgstr "You can&#8217;t delete the current user."
+
+#: wp-admin/users.php:461
+msgid "Other user roles have been changed."
+msgstr "Oinno estemalgoróya'r rul ókkol bodoli giyégói."
+
+#: wp-admin/users.php:465
+msgid "Other users have been deleted."
+msgstr "Oinno estemalgoróya ókkol haçi giyégói."
+
+#: wp-admin/theme-install.php:49 wp-admin/theme-install.php:134
+#: wp-admin/theme-install.php:136 wp-admin/update.php:258
+msgid "Upload Theme"
+msgstr "Tehm Uoretuló"
+
+#: wp-admin/user-edit.php:261
+msgid "Enable keyboard shortcuts for comment moderation."
+msgstr "Rai or fáisela gori bélla kibudh or baiththá rasta ókkol kabelgoró."
+
+#: wp-admin/update.php:80
+msgid "Plugin Reactivation"
+msgstr "Modhul Abbar Salugoróon"
+
+#: wp-admin/update.php:82
+msgid "Plugin reactivated successfully."
+msgstr "Modhul kamiyabi sáñte abbar salu óiye."
+
+#: wp-admin/update.php:236
+msgid "Installing Theme: %s"
+msgstr "Tehm Fíthgorér: %s"
+
+#: wp-admin/update.php:264
+msgid "Installing Theme from uploaded file: %s"
+msgstr "Uoretuillá fail óttu tehm fíthgorér: %s"
+
+#: wp-admin/upgrade.php:76
+msgid "Your WordPress database is already up-to-date!"
+msgstr "Tuáñr WordPress or dhethabéis foóila loti taza asé!"
+
+#: wp-admin/upgrade.php:115
+msgid "%s queries"
+msgstr "%s súal ókkol"
+
+#: wp-admin/upgrade.php:117
+msgid "%s seconds"
+msgstr "%s sekén ókkol"
+
+#: wp-admin/user-edit.php:28
+msgid "Edit User"
+msgstr "Estemalgoróya Sóiyigoró"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:1648
+#: wp-admin/includes/class-wp-posts-list-table.php:1651
+#: wp-admin/includes/template.php:1709
+msgid "Sticky"
+msgstr "Lagaiya"
+
+#: wp-admin/themes.php:67
+msgid "Manage Themes"
+msgstr "Tehm ókkol Sóoñló"
+
+#: wp-admin/update.php:231
+msgid "Install Themes"
+msgstr "Tehm ókkol Fíthgoró"
+
+#: wp-admin/includes/template.php:867
+msgid "Maximum size: %s"
+msgstr "Bicíttu bicí maf: %s"
+
+#. translators: user role
+#: wp-admin/includes/schema.php:642
+msgctxt "User role"
+msgid "Contributor"
+msgstr "Híssadoya"
+
+#: wp-admin/includes/class-wp-links-list-table.php:330
+#: wp-admin/includes/meta-boxes.php:916
+msgid ""
+"You are about to delete this link '%s'\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Tuñí rabeta yián '%s' haçífélor.\n"
+"No haçíbélla 'Kensel' ar haçíbélla 'Oke' goró."
+
+#: wp-admin/includes/media.php:463 wp-admin/includes/template.php:1591
+#: wp-admin/install.php:80 wp-admin/maint/repair.php:26
+#: wp-admin/setup-config.php:102 wp-admin/upgrade.php:71
+msgid "WordPress"
+msgstr "WordPress"
+
+#: wp-admin/tools.php:16 wp-admin/tools.php:40 wp-admin/tools.php:51
+msgid "Press This"
+msgstr "Ibá Sibo"
+
+#: wp-admin/includes/media.php:2451 wp-admin/includes/nav-menu.php:362
+#: wp-admin/includes/nav-menu.php:647
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: wp-admin/includes/media.php:2450 wp-admin/includes/nav-menu.php:361
+#: wp-admin/includes/nav-menu.php:646
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#. translators: draft saved date format, see https://secure.php.net/date
+#: wp-admin/includes/misc.php:885
+msgid "g:i:s a"
+msgstr "g:i:s a"
+
+#: wp-admin/admin.php:228
+msgid "Cannot load %s."
+msgstr "%s loóudh ói nofaré."
+
+#: wp-admin/admin.php:225
+msgid "Invalid plugin page"
+msgstr "Modhul or sófa gairsóiyi"
+
+#: wp-admin/includes/ajax-actions.php:1785
+#: wp-admin/includes/class-wp-posts-list-table.php:1000
+#: wp-admin/includes/class-wp-posts-list-table.php:1633
+#: wp-admin/includes/meta-boxes.php:88 wp-admin/includes/meta-boxes.php:112
+#: wp-admin/includes/template.php:1712
+msgid "Scheduled"
+msgstr "Liísgoijjé"
+
+#: wp-admin/edit-form-comment.php:76 wp-admin/includes/ajax-actions.php:1773
+#: wp-admin/includes/class-wp-posts-list-table.php:1626
+msgid "Status"
+msgstr "Hásiyot"
+
+#: wp-admin/includes/ajax-actions.php:1773
+#: wp-admin/includes/class-wp-posts-list-table.php:577
+#: wp-admin/includes/class-wp-posts-list-table.php:1414
+msgid "Date"
+msgstr "Tarík"
+
+#: wp-admin/includes/ajax-actions.php:1727
+#: wp-admin/includes/ajax-actions.php:1732
+#: wp-admin/includes/edit-tag-messages.php:18
+msgid "Item not updated."
+msgstr "Jiníc tazagorá noza."
+
+#: wp-admin/includes/ajax-actions.php:1621
+msgid "Saving is disabled: %s is currently editing this post."
+msgstr "Bóriera bongorá giyé: Ehón %s yé sófa ibá sóiyigorér."
+
+#: wp-admin/includes/ajax-actions.php:1621
+msgid "Saving is disabled: %s is currently editing this page."
+msgstr "Bóriera bongorá giyé: Ehón %s yé sófa ibá sóiyigorér."
+
+#: wp-admin/includes/ajax-actions.php:1620
+msgid "Someone"
+msgstr "Honíkka"
+
+#. translators: %s: date and time
+#: wp-admin/includes/misc.php:887
+msgid "Draft saved at %s."
+msgstr "Tooitta %s ot bórieragiyé."
+
+#: wp-admin/comment.php:61 wp-admin/comment.php:255
+#: wp-admin/includes/post.php:1532
+msgid "Go back"
+msgstr "Fissá Zoo"
+
+#: wp-admin/admin.php:285 wp-admin/import.php:18 wp-admin/menu.php:241
+msgid "Import"
+msgstr "Baártugóla"
+
+#: wp-admin/comment.php:39 wp-admin/edit-form-comment.php:16
+#: wp-admin/includes/template.php:396
+msgid "Edit Comment"
+msgstr "Rai Sóiyigoró"
