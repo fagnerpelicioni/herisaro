@@ -1,6 +1,6 @@
 
 <div class="jumbotron" 
-           style=" background: url('<?php get_the_post_thumbnail_url() ?>');" id="home">
+           style=" background-image: url('<?php the_post_thumbnail_url() ?>');" id="home">
  <div class="container">
      <div class="row">
          <div class="col-md-6 col-sm-12 content-sec">
