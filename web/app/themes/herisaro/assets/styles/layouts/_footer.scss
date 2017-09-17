@@ -1,0 +1,46 @@
+
+/*---- Footer ----*/
+footer{
+	float: left;
+	width: 100%;
+	background: #00D36C;
+	padding:25px 0;
+	color: #fff;
+}
+
+footer a{
+	color: #fff;
+}
+
+footer i {
+    font-size: 22px!important;
+    margin-bottom: 11px;
+}	
+footer .fa-mobile {
+    font-size: 32px!important;
+    margin-bottom: 3px;
+}
+
+footer .footer-social{
+	padding:32px 10px;
+}
+
+footer .footer-social > a {
+    margin: 0 8px;
+}
+
+
+.meus-dados {
+	background: #000;
+	float: left;
+	width: 100%;
+	color: #fff;
+	padding: 10px 0;
+	a {
+	text-decoration: none;
+	color: #fff;
+	}
+	.love-text {
+    text-align: center;
+	}
+}
