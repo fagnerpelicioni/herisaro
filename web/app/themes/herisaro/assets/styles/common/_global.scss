@@ -41,14 +41,16 @@ h2 {
 .btn-tranparent {
 	border: 1px solid #fff;
 	color: #fff;
+	border-radius: 30px;
 }
 .btn-tranparent:hover, .btn-tranparent:focus {
 	border: 1px solid #fff;
-	color: #000;
-	background: #fff
+	color: #5BA600;
+	background: #fff;
 }
 .btn-green {
 	border: 1px solid #5BA600;
+	border-radius: 30px;
 	color: #5BA600;
 }
 .btn-green:hover, .btn-green:focus {
@@ -130,7 +132,7 @@ h2 {
 
 /*-------------- Top Header --------------*/  
 .top-bar {
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0);
 	border: medium none;
 	border-radius: 0;
 	margin-bottom: 0;
@@ -145,7 +147,7 @@ h2 {
 .top-bar .navbar-nav li a {
 	color: #fff;
 	font-size: 14px;
-	font-weight: 600;
+	font-weight: 900;
 	text-transform: uppercase;
 }
 
@@ -162,11 +164,14 @@ h2 {
 }
 
 
-
 .top-bar .navbar-nav > .active > a, .top-bar .navbar-nav > .active > a:focus, .top-bar .navbar-nav > .active > a:hover, .top-bar .navbar-nav li a:hover, .top-bar .navbar-nav li a:focus {
 	color: #74D400;
-	background: transparent
+	background: transparent;
+	text-decoration: none;
+
+
 }
+
 .top-bar a.navbar-brand {
 	color: #fff;
 	font-size: 30px;
@@ -211,7 +216,7 @@ h2 {
     position: relative;
 }
 .jumbotron::before {
-	background: rgba(0,0,0,0.2);
+	background: rgba(0,0,0,0.6);
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -236,46 +241,6 @@ h2 {
 }
 .jumbotron .content-sec .btn {
 	margin-top: 10px
-}
-.intro-section {
-	float: left;
-	width: 100%;
-	padding-bottom: 0
-}
-.intro-section .intro-text {
-	color: #434e5b;
-	font-size: 22px;
-	font-weight: 700;
-	line-height: 35px;
-	padding: 0 13% 20px;
-	text-align: center;
-	text-transform: uppercase;
-	position: relative;
-}
-.intro-section .intro-text:before {
-	background: #B24592;
-	content: "";
-	height: 4px;
-	left: 50%;
-	margin-left: -80px;
-	position: absolute;
-	width: 160px;
-	bottom: 0;
-}
-.intro-section p {
-	font-size: 17px;
-	margin-top: 38px;
-	padding: 0 17%;
-	text-align: center;
-}
-.intro-section .mockup-block {
-	float: left;
-	margin-top: 60px;
-	text-align: center;
-	width: 100%;
-}
-.intro-section .mockup-block img {
-	margin: 0 auto
 }
 .under-banner {
 	background: #5ba600;
@@ -352,87 +317,6 @@ h2 {
 .product-sec .product-block {
 	padding-top: 30px;
 	padding-bottom: 30px
-}
-
-/* -----------About Sec---------- */
-
-.about-bar {
-	background: $barra-menu;
-	float: left;
-	width: 100%;
-	color: #fff;
-	padding: 40px 0
-}
-
-.about-sec {
-	margin-top: 100px;
-	background: url(/../img/about-bg.jpg) no-repeat 0 -236px;
-	background-size: cover;
-	float: left;
-	width: 100%;
-	padding: 40px 0;
-	position: relative
-}
-.about-sec::before {
-	background: rgba(0,0,0,0.8);
-	content: "";
-	position: absolute;
-	width: 50%;
-	right: 0;
-	height: 100%;
-	top: 0
-}
-.about-sec .content-block {
-	padding: 0 20px;
-}
-.about-sec h3 {
-	color: #5BA600;
-	font-size: 27px;
-	text-transform: uppercase;
-	margin-bottom: 30px;
-	font-weight: 700
-}
-.about-sec h3:before {
-	background: #fff;
-	content: "";
-	height: 1px;
-	left: 35px;
-	margin-top: 40px;
-	position: absolute;
-	width: 110px;
-}
-.about-sec p {
-	font-size: 16px;
-	font-weight: 300;
-	line-height: 27px;
-	color: #fff;
-}
-.about-sec ul {
-	list-style: none;
-	padding: 0
-}
-.about-sec ul li {
-	font-weight: 600;
-	color: #fff;
-	padding: 10px 0 10px 30px;
-	position: relative;
-	padding-left: 20px
-}
-.about-sec ul li::before {
-	background: #5BA600 none repeat scroll 0 0;
-	content: "";
-	height: 10px;
-	left: 0;
-	position: absolute;
-	top: 16px;
-	width: 9px;
-	border-radius: 50%
-}
-.about-sec .btn-success {
-	text-transform: uppercase;
-	font-size: 15px;
-	margin-top: 20px;
-	font-weight: 600;
 }
 
 /* -----------Services Sec---------- */
