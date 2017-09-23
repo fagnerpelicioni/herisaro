@@ -1,8 +1,8 @@
 <section class="contato">
-<div class="container">
+<div class="container-fluid">
   <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">                        
-        <h3>CONTATO</h3>
+      <div class="col-md-6 col-md-offset-5">                        
+        <h3><?php the_title(); ?></h3>
       </div>
   </div>
   <div class="row">
@@ -32,3 +32,9 @@
   </div>
 </div>
 </section>
+
+<div class="container-fluid">
+<div class="row">
+	<iframe class="fullmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1018764.9699375039!2d-60.532457673437506!3d-4.111401755615652!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1sit!2sit!4v1466723353127" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+</div>
+</div>
