@@ -9,23 +9,23 @@
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3">
           <form id="contact-form" class="form" action="#" method="POST" role="form">
               <div class="form-group">
-                  <label class="form-label" for="name">Your Name</label>
+                  <label class="form-label" for="name">Seu nome</label>
                   <input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1" required>
               </div>                            
               <div class="form-group">
-                  <label class="form-label" for="email">Your Email</label>
+                  <label class="form-label" for="email">Seu email</label>
                   <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2" required>
               </div>                            
               <div class="form-group">
-                  <label class="form-label" for="subject">Subject</label>
+                  <label class="form-label" for="subject">Seu telefone</label>
                   <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3">
               </div>                            
               <div class="form-group">
-                  <label class="form-label" for="message">Message</label>
+                  <label class="form-label" for="message">Mensagem</label>
                   <textarea rows="5" cols="50" name="message" class="form-control" id="message" placeholder="Message..." tabindex="4" required></textarea>                                 
               </div>
               <div class="text-center">
-                  <button type="submit" class="btn btn-start-order">Send Message</button>
+                  <button type="submit" class="btn btn-start-order">Enviar</button>
               </div>
           </form>
       </div>

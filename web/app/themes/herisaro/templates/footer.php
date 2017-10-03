@@ -4,7 +4,7 @@
         <div class="container">
         <div class="row">
         	<div class="col-md-3">
-        		<h1 class="footer-logo">Grafreez</h1>
+        		<h1 class="footer-logo"><?php bloginfo(); ?></h1>
         	</div>
         	<div class="col-md-2 text-center">
         			<i class="fa fa-map"></i><br>
@@ -17,8 +17,8 @@
         	<div class="col-md-2 text-center">
         		<i class="fa fa-envelope"></i><br>
                 	<div>
-                      	<a href="#">sales@yourcompany.com</a>
-                      	<a href="#">www.yourcompany.com</a>
+                      	<a href="#">contato@herisaro.com</a>
+                      	<a href="#">www.herisaro.org</a>
                     </div>
         	</div>
         	<div class="col-md-3">
