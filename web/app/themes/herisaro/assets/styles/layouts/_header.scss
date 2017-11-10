@@ -1,0 +1,122 @@
+/*-------------- Top Header --------------*/
+.top-bar {
+	background-color: rgba(0, 0, 0, 0);
+	border: medium none;
+	border-radius: 0;
+	margin-bottom: 0;
+	padding: 15px 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+
+.top-bar .navbar-nav li a {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.nav {
+	ul {
+		margin-top: 15px;
+
+		li {
+			display: inline;
+			margin: 10px;
+
+		}
+	}
+}
+
+
+.top-bar .navbar-nav > .active > a, .top-bar .navbar-nav > .active > a:focus, .top-bar .navbar-nav > .active > a:hover, .top-bar .navbar-nav li a:hover, .top-bar .navbar-nav li a:focus {
+	color: #74D400;
+	background: transparent;
+	text-decoration: none;
+
+
+}
+
+.top-bar a.navbar-brand {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 800;
+	padding-top: 16px;
+	text-transform: uppercase
+}
+.top-bar a.navbar-brand span {
+	color: #74D400;
+}
+.top-bar a.navbar-brand:hover {
+	color: #74D400;
+}
+
+.top-bar a.navbar-brand:hover span {
+    color: #fff;
+}
+
+.affix {
+	animation: 1s ease 0s normal both 1 running slideInDown;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 0.75em 0;
+	position: fixed;
+	z-index: 1000;
+}
+.color-bg-nav {
+	background: #1f2d3c;
+	margin-top: 0;
+	padding: 5px 0
+}av {
+	ul {
+		margin-top: 15px;
+
+		li {
+			display: inline;
+			margin: 10px;
+
+		}
+	}
+}
+
+
+.top-bar .navbar-nav > .active > a, .top-bar .navbar-nav > .active > a:focus, .top-bar .navbar-nav > .active > a:hover, .top-bar .navbar-nav li a:hover, .top-bar .navbar-nav li a:focus {
+	color: #74D400;
+	background: transparent;
+	text-decoration: none;
+
+
+}
+
+.top-bar a.navbar-brand {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 800;
+	padding-top: 16px;
+	text-transform: uppercase
+}
+.top-bar a.navbar-brand span {
+	color: #74D400;
+}
+.top-bar a.navbar-brand:hover {
+	color: #74D400;
+}
+
+.top-bar a.navbar-brand:hover span {
+    color: #fff;
+}
+
+.affix {
+	animation: 1s ease 0s normal both 1 running slideInDown;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 0.75em 0;
+	position: fixed;
+	z-index: 1000;
+}
+.color-bg-nav {
+	background: #1f2d3c;
+	margin-top: 0;
+	padding: 5px 0
+}

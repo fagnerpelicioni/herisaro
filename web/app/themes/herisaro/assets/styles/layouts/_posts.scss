@@ -1,18 +1,12 @@
-
-.noticias {
-
-  float: left;
-  width:100%;
-  padding:20px 0;
-  background: url(../images/about-bg.jpg) no-repeat center center;
-  background-size: cover;
-  position: relative;
+.produtos {
+  background: #fff;
 }
+
 
 .article {
   max-width: (550px + 60px);
   margin: 0 auto;
-  
+  background: #fff;
   /* for mobile */
   padding-left: 30px;
   padding-right: 30px;
@@ -30,7 +24,7 @@ $darkgray: #3d464d;
 
 /* HEADER */
 .category {
-  font-family: 'Montserrat', sans-serif;
+  //font-family: 'Montserrat', sans-serif;
   color: $gray;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -39,11 +33,11 @@ $darkgray: #3d464d;
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  //font-family: 'Montserrat', sans-serif;
   font-weight: bold; /* default */
   font-size: 2.415em;
   line-height: 1.2;
-  
+
   /*
   letter-spacing: -1px;
   color: @blue;
@@ -57,7 +51,7 @@ h1 {
   font-family: 'Open Sans', sans-serif;
   color: $gray;
   text-transform: uppercase;
-  font-size: 74.5%; 
+  font-size: 74.5%;
   font-size: 0.745em; /* 74.5% of parent */
 }
 /* END HEADER */
@@ -103,7 +97,7 @@ img {
   max-width: 100%;
 }
 
-sup { 
+sup {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -116,7 +110,7 @@ figure {
   padding: 0;
   margin-right: -25%;
   margin-left: 1em;
-  */
+  a*/
 }
 
 figcaption {
@@ -128,7 +122,7 @@ figcaption {
   padding: 0.5em 1em;
 }
 
-// LISTA DE POSTS 
+// LISTA DE POSTS
 /*PEN STYLES*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700);
 $green: #75D13B;

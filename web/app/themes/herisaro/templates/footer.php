@@ -1,6 +1,6 @@
 
 <footer>
-    
+
         <div class="container">
         <div class="row">
         	<div class="col-md-3">
@@ -38,12 +38,12 @@
 <!-- Meus dados -->
 
 <div class="content-info meus-dados">
-  
+
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-3">&copy;<script type="text/javascript">document.write(new Date().getFullYear());</script> <a href="http://pelicioni.com">pelicioni web studios</a></div>
                 <div class="col-sm-12 col-md-2 pull-right love-text">Criado com <i class="fa fa-heart"></i> e <i class="fa fa-coffee" aria-hidden="true"></i></div>
             </div>
-        
+
         </div>
 </div>

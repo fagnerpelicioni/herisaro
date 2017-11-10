@@ -27,20 +27,64 @@ foreach ($sage_includes as $file) {
 }
 unset($file, $filepath);
 
-function my_function_admin_bar() {
-  return false;
-}
-add_filter('show_admin_bar','my_function_admin_bar');
-
-add_theme_support('post_thumbnails' );
-
-/**
- * Filter the except length to 20 words.
- *
- * @param int $length Excerpt length.
- * @return int (Maybe) modified excerpt length.
- */
 function wpdocs_custom_excerpt_length( $length ) {
     return 20;
 }
 add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+
+
+// Register Custom Post Type
+function products_post_type() {
+
+	$labels = array(
+		'name'                  => _x( 'Produtos', 'Post Type General Name', 'text_domain' ),
+		'singular_name'         => _x( 'Produto', 'Post Type Singular Name', 'text_domain' ),
+		'menu_name'             => __( 'Produtos', 'text_domain' ),
+		'name_admin_bar'        => __( 'Produto', 'text_domain' ),
+		'archives'              => __( 'Item Archives', 'text_domain' ),
+		'attributes'            => __( 'Item Attributes', 'text_domain' ),
+		'parent_item_colon'     => __( 'Parent Product:', 'text_domain' ),
+		'all_items'             => __( 'Todos os Produtos', 'text_domain' ),
+		'add_new_item'          => __( 'Adicionar novo Produto', 'text_domain' ),
+		'add_new'               => __( 'Novo Produto', 'text_domain' ),
+		'new_item'              => __( 'Novo Produto', 'text_domain' ),
+		'edit_item'             => __( 'Editar Produto', 'text_domain' ),
+		'update_item'           => __( 'Atualizar Produto', 'text_domain' ),
+		'view_item'             => __( 'Visualizar Produto', 'text_domain' ),
+		'view_items'            => __( 'Visualizar Produtos', 'text_domain' ),
+		'search_items'          => __( 'Procurar Produtos', 'text_domain' ),
+		'not_found'             => __( 'Sem Produtos', 'text_domain' ),
+		'not_found_in_trash'    => __( 'Sem Produtos', 'text_domain' ),
+		'featured_image'        => __( 'Featured Image', 'text_domain' ),
+		'set_featured_image'    => __( 'Set featured image', 'text_domain' ),
+		'remove_featured_image' => __( 'Remove featured image', 'text_domain' ),
+		'use_featured_image'    => __( 'Use as featured image', 'text_domain' ),
+		'insert_into_item'      => __( 'Insert into item', 'text_domain' ),
+		'uploaded_to_this_item' => __( 'Uploaded to this item', 'text_domain' ),
+		'items_list'            => __( 'Items list', 'text_domain' ),
+		'items_list_navigation' => __( 'Items list navigation', 'text_domain' ),
+		'filter_items_list'     => __( 'Filter items list', 'text_domain' ),
+	);
+	$args = array(
+		'label'                 => __( 'Produto', 'text_domain' ),
+		'description'           => __( 'Produtos artesanais', 'text_domain' ),
+		'labels'                => $labels,
+		'supports'              => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'custom-fields', ),
+		'taxonomies'            => array( 'roupa', 'acessorio', 'decoracao' ),
+		'hierarchical'          => false,
+		'public'                => true,
+		'show_ui'               => true,
+		'show_in_menu'          => true,
+		'menu_position'         => 5,
+		'show_in_admin_bar'     => true,
+		'show_in_nav_menus'     => true,
+		'can_export'            => true,
+		'has_archive'           => true,
+		'exclude_from_search'   => false,
+		'publicly_queryable'    => true,
+		'capability_type'       => 'page',
+	);
+	register_post_type( 'produto', $args );
+
+}
+add_action( 'init', 'products_post_type', 0 );

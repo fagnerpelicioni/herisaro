@@ -14,16 +14,11 @@
   @extend .btn-default;
 }
 
-.booking_form {
-	.booking_form_div {
-		
-	}
-}
 
-.contato{
+.contact-sec{
 	float: left;
 	width:100%;
-	padding:110px 0;
+	padding:30px 0;
 	background: url(../images/contact-bg.jpg) no-repeat center center;
 	background-size: cover;
 	position: relative;
@@ -79,11 +74,13 @@ textarea {
 	border-color: $verde-principal;
 }
 .js-hide-label {
-	opacity: 0; 	
+	opacity: 0;
 }
 .js-unhighlight-label {
-	color: #fff; 
+	color: #fff;
 }
+
+
 .btn-start-order {
 	//border:2px solid #fff; border-radius: 15px; color:#fff;
 	background: $cinza-transparente;
