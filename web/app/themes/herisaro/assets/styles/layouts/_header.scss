@@ -1,4 +1,6 @@
 /*-------------- Top Header --------------*/
+
+
 .top-bar {
 	background-color: rgba(0, 0, 0, 0);
 	border: medium none;
@@ -33,7 +35,7 @@
 
 
 .top-bar .navbar-nav > .active > a, .top-bar .navbar-nav > .active > a:focus, .top-bar .navbar-nav > .active > a:hover, .top-bar .navbar-nav li a:hover, .top-bar .navbar-nav li a:focus {
-	color: #74D400;
+	color: #74D400;;
 	background: transparent;
 	text-decoration: none;
 
@@ -42,20 +44,30 @@
 
 .top-bar a.navbar-brand {
 	color: #fff;
-	font-size: 30px;
+	font-size: 50px;
 	font-weight: 800;
-	padding-top: 16px;
 	text-transform: uppercase
 }
+
+/* AZUL: #0576B1
+    VERMELHOR: #E0011A   */
+
 .top-bar a.navbar-brand span {
-	color: #74D400;
+	color: #0576B1;
+}
+.top-bar a.navbar-brand span2 {
+	color: #E0011A;
 }
 .top-bar a.navbar-brand:hover {
-	color: #74D400;
+	color: #0576B1;
 }
 
 .top-bar a.navbar-brand:hover span {
-    color: #fff;
+    color: #E0011A;
+}
+
+.top-bar a.navbar-brand:hover span2 {
+    color: #FFF;
 }
 
 .affix {
@@ -79,44 +91,4 @@
 
 		}
 	}
-}
-
-
-.top-bar .navbar-nav > .active > a, .top-bar .navbar-nav > .active > a:focus, .top-bar .navbar-nav > .active > a:hover, .top-bar .navbar-nav li a:hover, .top-bar .navbar-nav li a:focus {
-	color: #74D400;
-	background: transparent;
-	text-decoration: none;
-
-
-}
-
-.top-bar a.navbar-brand {
-	color: #fff;
-	font-size: 30px;
-	font-weight: 800;
-	padding-top: 16px;
-	text-transform: uppercase
-}
-.top-bar a.navbar-brand span {
-	color: #74D400;
-}
-.top-bar a.navbar-brand:hover {
-	color: #74D400;
-}
-
-.top-bar a.navbar-brand:hover span {
-    color: #fff;
-}
-
-.affix {
-	animation: 1s ease 0s normal both 1 running slideInDown;
-	background-color: rgba(0, 0, 0, 0.8);
-	padding: 0.75em 0;
-	position: fixed;
-	z-index: 1000;
-}
-.color-bg-nav {
-	background: #1f2d3c;
-	margin-top: 0;
-	padding: 5px 0
 }

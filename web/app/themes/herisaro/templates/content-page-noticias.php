@@ -1,8 +1,11 @@
 <?php
 // the query
 $the_query = new WP_Query( "post_type=post" ); ?>
-		<section class="about-section">
-			<?php the_title(); ?>
+		<section class="noticias-sec">
+			<div class="row text-center margin-b-40">
+					<div class="col-sm-6 col-sm-offset-3">
+							<h2 class="text-center"><small class="text-green"><?php the_title(); ?></small><br />Confira as últimas novidades da Aldeia!</h2></div>
+			</div>
 <?php if ( $the_query->have_posts() ) : ?>
 
 	<!-- pagination here -->

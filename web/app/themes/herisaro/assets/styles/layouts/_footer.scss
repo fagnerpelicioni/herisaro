@@ -1,4 +1,3 @@
-
 /*---- Footer ----*/
 footer{
 	float: left;
@@ -22,6 +21,10 @@ footer .fa-mobile {
     margin-bottom: 3px;
 }
 
+img .logomarca {
+	max-width: 120%;
+}
+
 footer .footer-social{
 	padding:32px 10px;
 }
@@ -29,7 +32,18 @@ footer .footer-social{
 footer .footer-social > a {
     margin: 0 8px;
 }
+#fb-root {
+  display: none;
+}
 
+/* To fill the container and nothing else */
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+  width: 100% !important;
+}
+
+#likebox-wrapper * {
+   width: 100% !important;
+}
 
 .meus-dados {
 	background: #000;

@@ -254,6 +254,7 @@ $grey: #e9e9e9;
       font-family: "Roboto";
       line-height: 1em;
       margin: 0 0 10px 0;
+      color: #000;
     }
 
     h2 {
@@ -269,6 +270,7 @@ $grey: #e9e9e9;
     p {
       position: relative;
       margin: 0;
+      color: #000;
       padding-top: 20px;
 
       &:after {
@@ -374,4 +376,64 @@ $grey: #e9e9e9;
       }
     }
   }
+}
+
+//LISTA DE produtos
+
+.latest-product-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.latest-product-section h2 {
+    font-size: 30px;
+}
+
+
+.latest-product-section p {
+
+    font-size: 15px;
+    font-weight: 400;
+    color: #a6a7aa;
+    margin-bottom: 15px;
+
+}
+.latest-product-section h1, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #515769;
+    line-height: 1.4;
+    margin: 0 0 15px;
+}
+
+.latest-product-section h1 > a, h3 > a, h4 > a, h5 > a, h6 > a {
+    color: #515769;
+}
+.latest-product-section .margin-b-20 {
+    margin-bottom: 20px !important;
+}
+
+.latest-product-section .margin-b-40 {
+    margin-bottom: 40px !important;
+}
+
+.latest-product-section .margin-b-50 {
+    margin-bottom: 40px !important;
+}
+ .latest-product-section a:hover {
+    color: #999caa;
+    text-decoration: none;
+}
+.latest-product-section span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #bfc1c7;
+}
+.latest-product-section a:active, a:focus, a:hover {
+    color: #999caa;
+}
+.latest-product-section .text-uppercase {
+    text-transform: uppercase;
+}
+.latest-product-section .link {
+    font-size: 13px;
+    font-weight: 600;
 }

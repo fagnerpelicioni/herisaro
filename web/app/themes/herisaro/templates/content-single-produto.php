@@ -1,16 +1,41 @@
+</div>
+</div>
+</div>
+<section class="product-sec" id="product">
+
 <?php while (have_posts()) : the_post(); ?>
-  AQUI FICA OS PRODUTOS
-  <article <?php post_class(); ?>>
+  <div class="container latest-product-section caixa text-center">
     <header>
-      <h1 class="entry-title"><?php the_title(); ?></h1>
-      <?php get_template_part('templates/entry-meta'); ?>
+      <h1><?php the_title(); ?></h1>
+      <h2><?php the_excerpt(); ?></h2>
     </header>
-    <div class="entry-content">
-      <?php the_content(); ?>
+      <span class="text-uppercase margin-l-20"><?php the_field('disponibilidade'); ?></span>
+      <h4>R$<?php the_field('preco'); ?></h4>
+      <div class="img-responsive">
+
+      <?php the_post_thumbnail('full'); ?>
+
+      </div>
+      <div class="row">
+
+      <div class="col-md-6 col-md-offset-3">
+        <p><?php the_content(); ?></p>
+      </div>
+
     </div>
-    <footer>
-      <?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>
-    </footer>
-    <?php comments_template('/templates/comments.php'); ?>
+      <?php
+      $images = get_field('fotos');
+      $size = 'full';
+      if( $images ): ?>
+        <ul>
+            <?php foreach( $images as $image ): ?>
+                <li>
+                	<?php echo '<p>'. wp_get_attachment_image( $image['ID'], $size ) .'</p>'; ?>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+    <?php endif; ?>
+    <hr>
   </article>
 <?php endwhile; ?>
+</section>

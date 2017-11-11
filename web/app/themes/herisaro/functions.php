@@ -88,3 +88,38 @@ function products_post_type() {
 
 }
 add_action( 'init', 'products_post_type', 0 );
+
+// Custom WordPress Login Logo
+function my_login_logo() { ?>
+    <style type="text/css">
+    body{
+      background-image: url(http://localhost/app/uploads/2017/08/banner2.jpg);
+    }
+        #login h1 a, .login h1 a {
+            background-image: url(http://localhost/app/uploads/2017/11/logo.png);
+        		height:65px;
+        		width:320px;
+        		background-size: 250px 100px;
+        		background-repeat: no-repeat;
+        	  padding-bottom: 25px;
+        }
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'my_login_logo' );
+
+//Link na tela de login para a página inicial
+function my_login_logo_url() {
+    return get_bloginfo( 'url' );
+}
+add_filter( 'login_headerurl', 'my_login_logo_url' );
+
+function my_login_logo_url_title() {
+    return 'Your Site Name and Info';
+}
+add_filter( 'login_headertitle', 'my_login_logo_url_title' );
+
+// Customizar o Footer do WordPress
+function remove_footer_admin () {
+    echo '© <a href="http://pelicioni/">Pelicioni Web Studios</a> - Desenvolvimento Web';
+}
+add_filter('admin_footer_text', 'remove_footer_admin');
