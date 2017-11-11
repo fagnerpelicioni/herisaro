@@ -15,6 +15,7 @@
           <?php get_template_part('templates/entry-meta'); ?>
         </header>
         <div class="entry-content">
+          <img class="pic" src="<?php the_post_thumbnail_url(); ?>" alt="">
           <p><?php the_content(); ?><p>
 
         </div>

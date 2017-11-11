@@ -6,6 +6,8 @@
 <?php while (have_posts()) : the_post(); ?>
   <div class="container latest-product-section caixa text-center">
     <header>
+
+      <div class="category">Categoria, Roupas, Acessórios</div>
       <h1><?php the_title(); ?></h1>
       <h2><?php the_excerpt(); ?></h2>
     </header>
@@ -18,8 +20,14 @@
       </div>
       <div class="row">
 
-      <div class="col-md-6 col-md-offset-3">
+      <div class="col-md-8 col-md-offset-2">
         <p><?php the_content(); ?></p>
+        <div class="category">
+          Deseja adquirir? Entre em contato e encomende!
+        </div>
+        <hr>
+        <a class="btn btn-green btn-lg" href="#" role="button">Agende</a></p>
+        <a class="btn btn-green btn-lg" href="#" role="button">Contato</a></p>
       </div>
 
     </div>

@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row">
     <article class="blog-card">
-  <div class="photo photo1"></div>
+  <div class="photo photo1"><img class="pic" src="<?php the_post_thumbnail_url(); ?>" alt=""></div>
   <ul class="details">
     <li class="author"><?= __('Por', 'sage'); ?>
       <a href="<?= get_author_posts_url(get_the_author_meta('ID')); ?>" rel="author" class="author-name"><?= get_the_author(); ?></a></li>
